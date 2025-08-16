@@ -61,8 +61,10 @@ In the first node set the preset to custom and in the second choose a preset, th
 
 I welcome contributions, feedback, and bug reports. Your input is valuable in helping me refine this tool and expand its capabilities for the creative community.
 
-<strong>If you enjoy my Absynth Film Look Creator subscribe to my YouTube channel</strong>
-https://www.youtube.com/@Electric-Dreamz/videos thx ;-)
+<strong>If you enjoy my Absynth Film Look Creator subscribe to my YouTube channel:</strong> <br>
+https://www.youtube.com/@Electric-Dreamz/videos 
+<br>
+Thx! ;-)
 
 
 
