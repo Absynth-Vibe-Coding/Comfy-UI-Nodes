@@ -44,6 +44,7 @@ https://www.youtube.com/@Electric-Dreamz/videos thx ;-)
 <br>
 3. In \ComfyUI\custom_nodes\absynth\luts\ you can put as many LUTS as you like :-) <br>
 <img width="498" height="236" alt="image" src="https://github.com/user-attachments/assets/5ea717c3-3ab8-4de7-aeb6-5f7d74f9f75d" />
+<br>
 4. Start Comfu UI
 5. Double Click the left mouse button in Comfy in a workflow and type in Absynth <br>
 <img width="842" height="178" alt="image" src="https://github.com/user-attachments/assets/ce8fc375-433d-4718-914e-a69de1057294" />
