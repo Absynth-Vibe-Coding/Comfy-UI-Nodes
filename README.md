@@ -20,7 +20,7 @@ The Absynth Film Look Creator is a custom ComfyUI & fully AI Vibe Coded Node, to
       <li><strong>Highlight & Shadow Control:</strong> Gain granular control over the image's tonal range by defining shadow tint color and highlight tint color. Adjust their influence with dedicated intensity sliders for precise stylistic control.</li>
     </ul>
 
-    <br><br><br>
+    
   </div>
   <div class="image-container">
     <img src="https://raw.githubusercontent.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/main/absynth-film-look-creator-node-comfy-ui_4.png"
