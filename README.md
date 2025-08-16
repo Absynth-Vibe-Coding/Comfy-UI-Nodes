@@ -4,6 +4,8 @@ AI Vibed Coded Nodes for Comfy UI
 If you enjoy my Absynth Film Look Creator subscribe to my YouTube channel 
 https://www.youtube.com/@Electric-Dreamz/videos thx ;-)
 
+UPDATE: There is a workaround for editing all presets: just chain 2 of the nodes togehter https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/blob/main/absynth-film-look-creator-node-comfy-ui_5.png
+
 #########################################################################
 
 Absynth Film Look Creator v1.0 - A ComfyUI Node
