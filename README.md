@@ -39,7 +39,7 @@ https://www.youtube.com/@Electric-Dreamz/videos thx ;-)
 
 <strong>How To Install</strong>
 1. Download the Zip File
-2. Unpack it into \ComfyUI\custom_nodes\absynth\
+2. Unpack it into \ComfyUI\custom_nodes\
 <img width="446" height="161" alt="image" src="https://github.com/user-attachments/assets/7f73c524-188a-4447-bd90-69878001648f"/>
 3. In \ComfyUI\custom_nodes\absynth\luts\ you can put as many LUTS as you like :-)
 <img width="498" height="236" alt="image" src="https://github.com/user-attachments/assets/5ea717c3-3ab8-4de7-aeb6-5f7d74f9f75d" />
