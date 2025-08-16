@@ -1,0 +1,305 @@
+{
+  "id": "bde440e0-b6fc-457e-b531-b7fd030a3fa0",
+  "revision": 0,
+  "last_node_id": 8,
+  "last_link_id": 16,
+  "nodes": [
+    {
+      "id": 3,
+      "type": "LoadImage",
+      "pos": [
+        -1543.00634765625,
+        -694.3114624023438
+      ],
+      "size": [
+        816.2120361328125,
+        623.2531127929688
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            13
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.50",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "ComfyUI_temp_ydapp_00026_ (1).png",
+        "image"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -1109.7137451171875,
+        -830.3216552734375
+      ],
+      "size": [
+        378.4670104980469,
+        93.8641357421875
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 14
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "Loaded LUT: Monos.cube"
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 8,
+      "type": "FilmLookCreator",
+      "pos": [
+        -253.5835418701172,
+        -834.4686279296875
+      ],
+      "size": [
+        383.9765319824219,
+        788.6239013671875
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 16
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            15
+          ]
+        },
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FilmLookCreator"
+      },
+      "widgets_values": [
+        "Pastel Dream",
+        40.1,
+        1,
+        2.2200000000000006,
+        2.4000000000000004,
+        0,
+        0,
+        "OrangeAndBlue.cube",
+        0.4900000000000001,
+        "Cyberpunk Cyon Dream",
+        "None",
+        false,
+        true,
+        0.7400000000000001,
+        -1.5516636174325242,
+        0.7600000000000001,
+        0,
+        0.2700000000000001,
+        0,
+        "#547334",
+        0.39000000000000007,
+        "#FFFFFF",
+        0.6300000000000001,
+        0.7000000000000002,
+        "NOTE: Presets only save after you click Run. Presets only update after you restart Comfy. You can`t edit all presets right now - you must set preset to custom, or edit them in the json file.\n           (       )    )           )   \n   (      (  )\\ ) ( /( ( /(  * ) ( /(   \n   )\\   ( )\\(()/( )\\()))\\()` )  /( )\\())  \n((((_)( )((_)/(_)((_)\\((_)\\ ( )(_)((_)\\   \n )\\ _ )((_)_(_)) ___ ((_)_((_(_(_()) _((_)  \n (_)_\\(_ | _ \\  /    \\ \\ / / | \\| | |_   _| | || |  \n  / _ \\  | _ |  \\__   \\ V /  | .` |   | |   | __ |  \n /_/ \\_\\ |___/  ___/   |_|   |_|\\_|   |_|   |_||_| ©2025  \n                                          "
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 2,
+      "type": "PreviewImage",
+      "pos": [
+        181.13795471191406,
+        -681.4829711914062
+      ],
+      "size": [
+        897.8162231445312,
+        625.466552734375
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 15
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.50",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 7,
+      "type": "FilmLookCreator",
+      "pos": [
+        -673.5072631835938,
+        -832.651123046875
+      ],
+      "size": [
+        383.9765319824219,
+        788.6239013671875
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 13
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            16
+          ]
+        },
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": [
+            14
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FilmLookCreator"
+      },
+      "widgets_values": [
+        "Custom",
+        3.8000000000000003,
+        1.12,
+        2.0300000000000002,
+        -13,
+        3.1,
+        0,
+        "Monos.cube",
+        0.6600000000000001,
+        "Cyberpunk Cyon Dream",
+        "None",
+        false,
+        true,
+        0.44000000000000006,
+        9.112947913029814,
+        0.7600000000000001,
+        0.05000000000000001,
+        0.28,
+        0.2,
+        "#547334",
+        0.22000000000000003,
+        "#FFFFFF",
+        0.17000000000000004,
+        0.05000000000000001,
+        "NOTE: Presets only save after you click Run. Presets only update after you restart Comfy. You can`t edit all presets right now - you must set preset to custom, or edit them in the json file.\n           (       )    )           )   \n   (      (  )\\ ) ( /( ( /(  * ) ( /(   \n   )\\   ( )\\(()/( )\\()))\\()` )  /( )\\())  \n((((_)( )((_)/(_)((_)\\((_)\\ ( )(_)((_)\\   \n )\\ _ )((_)_(_)) ___ ((_)_((_(_(_()) _((_)  \n (_)_\\(_ | _ \\  /    \\ \\ / / | \\| | |_   _| | || |  \n  / _ \\  | _ |  \\__   \\ V /  | .` |   | |   | __ |  \n /_/ \\_\\ |___/  ___/   |_|   |_|\\_|   |_|   |_||_| ©2025  \n                                          "
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    }
+  ],
+  "links": [
+    [
+      13,
+      3,
+      0,
+      7,
+      0,
+      "IMAGE"
+    ],
+    [
+      14,
+      7,
+      1,
+      5,
+      0,
+      "STRING"
+    ],
+    [
+      15,
+      8,
+      0,
+      2,
+      0,
+      "IMAGE"
+    ],
+    [
+      16,
+      7,
+      0,
+      8,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.8768126207886957,
+      "offset": [
+        1643.4316618000635,
+        1083.4280808548451
+      ]
+    },
+    "frontendVersion": "1.23.4",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
