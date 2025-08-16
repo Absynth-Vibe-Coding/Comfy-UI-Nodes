@@ -29,11 +29,6 @@ The Absynth Film Look Creator is a custom ComfyUI & fully AI Vibe Coded Node, to
 
 Important Note: This is the initial public release (v1.0). Currently, presets are applied and saved upon node execution ("Run"). I am actively working on improving the user interface and functionality in future updates to provide a more streamlined workflow.
 
-I welcome contributions, feedback, and bug reports. Your input is valuable in helping me refine this tool and expand its capabilities for the creative community.
-
-
-<strong>If you enjoy my Absynth Film Look Creator subscribe to my YouTube channel</strong>
-https://www.youtube.com/@Electric-Dreamz/videos thx ;-)
 
 <br> <br>
 
@@ -57,9 +52,16 @@ https://www.youtube.com/@Electric-Dreamz/videos thx ;-)
  
 <br> <br>
 
+
 <strong>UPDATE:</strong> There is a workaround for editing all presets: just chain 2 of the nodes togehter 
 <img src="https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/blob/main/absynth-film-look-creator-node-comfy-ui_5.png">
 In the first node set the preset to custom and in the second choose a preset, then you can make changes in the first node - run and that will change the preset.
+<br><br>
+
+I welcome contributions, feedback, and bug reports. Your input is valuable in helping me refine this tool and expand its capabilities for the creative community.
+
+<strong>If you enjoy my Absynth Film Look Creator subscribe to my YouTube channel</strong>
+https://www.youtube.com/@Electric-Dreamz/videos thx ;-)
 
 
 
