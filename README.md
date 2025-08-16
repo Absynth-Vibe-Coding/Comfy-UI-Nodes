@@ -23,9 +23,9 @@ The Absynth Film Look Creator is a custom ComfyUI & fully AI Vibe Coded Node, to
 <strong>Key Features:</strong>
 
 <ul>
-      <li><strong>Color & Tonal Grading:</strong> Precisely adjust the brightness, contrast, saturation, temperature, and tint to perform professional color correction and set the overall mood of your scene.</li>
-      <li><strong>Film Emulation & LUTs:</strong> Emulate the unique characteristics of analog film with controls for grain intensity and a customizable vignette. This node allows you to import and apply your own custom LUT files (.cube format) to instantly transform the color and tone of your renders. The LUT intensity slider provides precise control over the strength of the applied LUT.</li>
-      <li><strong>Lens & Atmospheric Effects:</strong> Introduce subtle imperfections and artistic flares with chromatic aberration and halation intensity. Fine-tune the visual atmosphere using clarity and bloom to control sharpness and light diffusion.</li>
+      <li><strong>Color & Tonal Grading:</strong> Precisely adjust the brightness, contrast, saturation, temperature, and tint to perform professional color correction and set the overall mood of your scene.</li><br>
+      <li><strong>Film Emulation & LUTs:</strong> Emulate the unique characteristics of analog film with controls for grain intensity and a customizable vignette. This node allows you to import and apply your own custom LUT files (.cube format) to instantly transform the color and tone of your renders. The LUT intensity slider provides precise control over the strength of the applied LUT.</li><br>
+      <li><strong>Lens & Atmospheric Effects:</strong> Introduce subtle imperfections and artistic flares with chromatic aberration and halation intensity. Fine-tune the visual atmosphere using clarity and bloom to control sharpness and light diffusion.</li><br>
       <li><strong>Highlight & Shadow Control:</strong> Gain granular control over the image's tonal range by defining shadow tint color and highlight tint color. Adjust their influence with dedicated intensity sliders for precise stylistic control.</li>
     </ul>
 
