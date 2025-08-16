@@ -2,7 +2,7 @@
 AI Vibed Coded Nodes for Comfy UI
 
 <strong><h2>Absynth Film Look Creator v1.0 - A ComfyUI Node</h2></strong>
-Crafting a cinematic aesthetic for your digital art.
+<strong>Crafting a cinematic aesthetic for your digital art!</strong>
 
 The Absynth Film Look Creator is a custom ComfyUI & fully AI Vibe Coded Node, to elevate your digital renders with professional-grade cinematic qualities. This tool provides a comprehensive suite of controls for film emulation and atmospheric enhancement, allowing you to move beyond simple filters and achieve a truly distinctive visual style. Inspired by the rich, imperfect character of analog film and classic cinematography, it offers precise control over every aspect of your image's look and feel.
 
