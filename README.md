@@ -1,9 +1,6 @@
 # Comfy-UI-Nodes
 AI Vibed Coded Nodes for Comfy UI
 
-###############################################################################################################################################################
-
-
 <strong><h2>Absynth Film Look Creator v1.0 - A ComfyUI Node</h2></strong>
 Crafting a cinematic aesthetic for your digital art.
 
