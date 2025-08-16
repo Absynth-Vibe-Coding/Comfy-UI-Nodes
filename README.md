@@ -4,6 +4,8 @@ AI Vibed Coded Nodes for Comfy UI
 If you enjoy my Absynth Film Look Creator subscribe to my YouTube channel 
 https://www.youtube.com/@Electric-Dreamz/videos thx ;-)
 
+#########################################################################
+
 Absynth Film Look Creator v1.0 - A ComfyUI Node
 Crafting a cinematic aesthetic for your digital art.
 
