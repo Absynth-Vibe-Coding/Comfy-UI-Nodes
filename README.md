@@ -37,6 +37,20 @@ https://www.youtube.com/@Electric-Dreamz/videos thx ;-)
 
 <br> <br>
 
+<strong>How To Install</strong>
+1. Download the Zip File
+2. Unpack it into \ComfyUI\custom_nodes\absynth\
+<img width="446" height="161" alt="image" src="https://github.com/user-attachments/assets/7f73c524-188a-4447-bd90-69878001648f"/>
+3. In \ComfyUI\custom_nodes\absynth\luts\ you can put as many LUTS as you like :-)
+<img width="498" height="236" alt="image" src="https://github.com/user-attachments/assets/5ea717c3-3ab8-4de7-aeb6-5f7d74f9f75d" />
+4. Start Comfu UI
+5. Double Click the left mouse button in Comfy in a workflow and type in Absynth
+<img width="842" height="178" alt="image" src="https://github.com/user-attachments/assets/ce8fc375-433d-4718-914e-a69de1057294" />
+6. The Absynth Film Look Creator node is ready for getting connected with image upload, image preview, image save...
+<img width="362" height="769" alt="image" src="https://github.com/user-attachments/assets/2d57513b-1af6-44ae-9ca0-1504ab0f27ed" />
+ 
+<br> <br>
+
 <strong>UPDATE:</strong> There is a workaround for editing all presets: just chain 2 of the nodes togehter 
 <img src="https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/blob/main/absynth-film-look-creator-node-comfy-ui_5.png">
 In the first node set the preset to custom and in the second choose a preset, then you can make changes in the first node - run and that will change the preset.
