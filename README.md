@@ -35,7 +35,8 @@ I welcome contributions, feedback, and bug reports. Your input is valuable in he
 <strong>If you enjoy my Absynth Film Look Creator subscribe to my YouTube channel</strong>
 https://www.youtube.com/@Electric-Dreamz/videos thx ;-)
 
-<strong>UPDATE:</strong> There is a workaround for editing all presets: just chain 2 of the nodes togehter https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/blob/main/absynth-film-look-creator-node-comfy-ui_5.png
+<strong>UPDATE:</strong> There is a workaround for editing all presets: just chain 2 of the nodes togehter 
+<img src="https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/blob/main/absynth-film-look-creator-node-comfy-ui_5.png">
 In the first node set the preset to custom and in the second choose a preset, then you can make changes in the first node - run and that will change the preset.
 
 
