@@ -43,6 +43,7 @@ Important Note: This is the initial public release (v1.0). Currently, presets ar
 <br>
 <br>
 4. Start Comfy UI
+<br>
 5. Double Click the left mouse button in Comfy in a workflow and type in Absynth <br>
 <img width="842" height="178" alt="image" src="https://github.com/user-attachments/assets/ce8fc375-433d-4718-914e-a69de1057294" />
 <br>
