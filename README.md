@@ -55,5 +55,5 @@ The Absynth Film Look Creator is a custom ComfyUI & fully AI Vibe Coded Node, to
 <p>I welcome contributions, feedback, and bug reports. Your input is valuable in helping me refine this tool and expand its capabilities for the creative community.</p>
 
 <strong>If you enjoy my Absynth Film Look Creator subscribe to my YouTube channel:</strong> <br>
-<a href="https://www.youtube.com/@Electric-Dreamz/videos">https://www.youtube.com/@Electric-Dreamz/videos</a> <br>
+<a href="https://www.youtube.com/@Electric-Dreamz">https://www.youtube.com/@Electric-Dreamz</a> <br>
 Thx! ;-)
