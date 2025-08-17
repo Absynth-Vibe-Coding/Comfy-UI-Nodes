@@ -33,17 +33,13 @@ The Absynth Film Look Creator is a custom ComfyUI & fully AI Vibe Coded Node, to
 <ol>
   <li>Download the Zip File</li>
   <li>Unpack it into \ComfyUI\custom_nodes\ <br>
-    <img width="446" height="161" alt="image" src="https://raw.githubusercontent.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/main/absynth-film-look-creator-1.0/install-step1.png"/>
   </li>
   <li>In \ComfyUI\custom_nodes\absynth\luts\ you can put as many LUTS as you like :-) <br>
-    <img width="498" height="236" alt="image" src="https://raw.githubusercontent.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/main/absynth-film-look-creator-1.0/install-step2.png"/>
   </li>
   <li>Start Comfy UI</li>
   <li>Double Click the left mouse button in Comfy in a workflow and type in Absynth <br>
-    <img width="842" height="178" alt="image" src="https://raw.githubusercontent.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/main/absynth-film-look-creator-1.0/install-step3.png"/>
   </li>
   <li>The Absynth Film Look Creator node is ready for getting connected with image upload, image preview, image save... <br>
-    <img width="362" height="769" alt="image" src="https://raw.githubusercontent.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/main/absynth-film-look-creator-1.0/install-step4.png"/>
   </li>
 </ol>
 
