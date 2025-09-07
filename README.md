@@ -66,6 +66,9 @@ Thx! ;-)
 
 <h2>Absynth LipSync Correction 🎵➡️🎬</h2>
 
+<img width="2079" height="887" alt="image" src="https://github.com/user-attachments/assets/5206a388-3ad5-4528-a822-d7b0f7f5f96c" />
+
+
 *Because nobody wants their AI rapper looking like they're dubbing a foreign film*
 
 Ever generated an amazing music video with Wan 2.2 S2V, only to discover your AI performer looks like they learned lip-syncing from a badly dubbed kung fu movie? Yeah, we've all been there. This ComfyUI node fixes that awkward "audio is doing the 100m dash while video is taking a leisurely stroll" problem.
