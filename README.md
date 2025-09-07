@@ -188,7 +188,8 @@ is the music slower than the sync offset needs to be 5, 10...
 - Try with cleaner source material
 - Increase smoothing_factor to calm things down
 
-<img width="383" height="489" alt="image" src="https://github.com/user-attachments/assets/e18fdd25-7eba-4084-b924-0fcd44cfe120" />
+<img width="372" height="455" alt="image" src="https://github.com/user-attachments/assets/1879c4eb-1e63-4e15-b064-3f926c0f6445" />
+
 
 ## Real Talk: What This Node Can and Can't Do
 
