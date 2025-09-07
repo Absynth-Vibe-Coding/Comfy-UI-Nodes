@@ -57,3 +57,202 @@ The Absynth Film Look Creator is a custom ComfyUI & fully AI Vibe Coded Node, to
 <strong>If you enjoy my Absynth Film Look Creator subscribe to my YouTube channel:</strong> <br>
 <a href="https://www.youtube.com/@Electric-Dreamz">https://www.youtube.com/@Electric-Dreamz</a> <br>
 Thx! ;-)
+
+
+
+
+===========================================================================================================================================================================
+
+
+<h2>Absynth LipSync Correction 🎵➡️🎬</h2>
+
+*Because nobody wants their AI rapper looking like they're dubbing a foreign film*
+
+Ever generated an amazing music video with Wan 2.2 S2V, only to discover your AI performer looks like they learned lip-syncing from a badly dubbed kung fu movie? Yeah, we've all been there. This ComfyUI node fixes that awkward "audio is doing the 100m dash while video is taking a leisurely stroll" problem.
+
+## What Does This Thing Actually Do?
+
+Think of it as a really smart audio-video matchmaker. It analyzes your audio energy (when the beat drops, when vocals hit) and compares it to visual changes in your video (when mouths move, when heads bob). Then it nudges everything into perfect harmony.
+
+**The Before Times:**
+- Generate video with Wan 2.2 S2V
+- Watch in horror as lips move completely out of sync
+- Spend 30 minutes manually padding audio in DaVinci Resolve
+- Cry a little
+- Try again
+
+**The After Times:**
+- Generate video with Wan 2.2 S2V
+- Connect this node
+- Watch it automatically fix the sync
+- Make coffee while it works
+- Profit
+
+## Installation (The "Please Don't Break My ComfyUI" Guide)
+
+### What You Need
+- ComfyUI (any flavor that doesn't crash when you look at it funny)
+- Basic ability to copy files without accidentally deleting your entire system
+
+### The Copy-Paste Dance
+
+1. **Download this repository** (the green "Code" button is your friend)
+
+2. **Navigate to your ComfyUI folder** like you're exploring a digital jungle:
+   ```
+   ComfyUI/
+   └── custom_nodes/          <- You are here
+       └── (put the new folder here)
+   ```
+
+3. **Create the folder structure** (yes, the hyphens vs underscores thing is intentional):
+   ```
+   custom_nodes/
+   └── absynth-lipsync-correction/     <- Folder name (with hyphens)
+       ├── __init__.py                 <- The "hello ComfyUI" file
+       └── absynth_lipsync_correction.py   <- The magic happens here (underscores)
+   ```
+
+4. **Restart ComfyUI** (the classic "turn it off and on again" move)
+
+5. **Look for "Absynth LipSync Correction"** in your node menu under video/audio
+
+## How to Use It (Without Losing Your Sanity)
+
+### The Basic Setup
+
+Think of your workflow like a sandwich:
+- Bread slice 1: Your video generation
+- The good stuff: Absynth LipSync Correction 
+- Bread slice 2: Video export
+
+```
+Your Awesome Video → [Absynth LipSync Correction] → Final Perfect Video
+                            ↗
+                    Your Audio ──┘
+```
+
+### The Magic Knobs and What They Do
+
+| Knob | What It Does | When to Fiddle With It |
+|------|--------------|------------------------|
+| **sync_offset_frames** | Manual timing adjustment | When you want to override the AI and do it yourself |
+| **audio_sensitivity** | How hard the node listens to your audio | Your vocals are whisper-quiet or screaming loud |
+| **auto_detect_offset** | Let the AI figure it out | Almost always leave this ON |
+| **smoothing_factor** | How much the AI second-guesses itself | When results are too jittery or too smooth |
+
+### Reading the Tea Leaves (Understanding Outputs)
+
+**synced_video**: Your video, but now with proper timing. This is what you actually want.
+
+**debug_overlay**: A nerdy visualization showing what the AI is thinking:
+- Red corner = "I hear audio energy here!"
+- Green corner = "I see movement here!" 
+- Blue corner = "I applied a timing fix!"
+- White corner = "This is frame number X"
+
+**sync_report**: A report card telling you how well everything worked. Look for correlation scores above 0.3 for good results.
+
+## The Science-y Bit (For the Curious)
+
+The node works like a detective investigating a crime scene:
+
+1. **Audio Investigation**: "When does the audio get exciting?" (RMS energy analysis)
+2. **Visual Investigation**: "When do things move in the video?" (frame difference detection)
+3. **Pattern Matching**: "Do these energy spikes line up with movement?" (cross-correlation)
+4. **The Fix**: "Let me nudge things X frames to make it perfect" (temporal offset)
+
+It's basically doing what your brain does automatically when watching movies, but with math.
+
+## When Things Go Sideways (Troubleshooting)
+
+### "The Sync is Still Terrible"
+**Correlation score below 0.3?**
+- Crank up `audio_sensitivity` to 2.0 or 3.0
+- Turn down `smoothing_factor` to 0.1
+- Check if your audio actually has vocals (instrumental tracks won't sync to lip movement)
+
+### "It Fixed It Backwards"
+**Audio rushing ahead or lagging behind?**
+- The AI detected the right amount of offset but wrong direction
+- Try the opposite sign: if it suggests +8, manually set it to -8
+- This is like GPS telling you to turn left when you should turn right
+
+### "It's Not Detecting My Audio"
+**Radio silence from the node?**
+- Check your workflow connections (that green line should be connected)
+- Look at the console output for clues
+- Make sure your audio isn't just 10 seconds of silence
+
+### "The Debug Overlay Looks Like Christmas Lights"
+**Red and green corners flashing randomly?**
+- Your video might have too much motion or your audio might be too chaotic
+- Try with cleaner source material
+- Increase smoothing_factor to calm things down
+
+## Real Talk: What This Node Can and Can't Do
+
+### What It's Great At:
+- Fixing timing issues in AI-generated music videos
+- Working with any audio that has clear energy patterns
+- Running on potato computers (it's CPU-only)
+- Being completely automatic once you set it up
+
+### What It Won't Do:
+- Detect individual facial features (it's not reading lips, just timing)
+- Fix videos where there's no correlation between audio and visual movement
+- Make your AI look like Ryan Gosling (that's a different node)
+- Work miracles with completely silent audio or static video
+
+## Integration with Wan 2.2 (The Whole Point)
+
+This node specifically solves the "Wan 2.2 timing curse" where your carefully crafted audio ends up 4 seconds ahead of your lovingly generated video. Instead of:
+
+1. Generate video
+2. Export audio separately  
+3. Open DaVinci Resolve
+4. Manually add 4 seconds of silence
+5. Re-export
+6. Hope it's right
+7. Repeat until insane
+
+You now do:
+1. Generate video
+2. Connect this node
+3. Coffee break
+4. Done
+
+## Pro Tips from the Trenches
+
+- **Start with defaults**: The node usually gets it right on the first try
+- **Check the correlation score**: Above 0.3 = good, below 0.2 = probably needs tweaking
+- **Negative offsets for fast audio**: If your audio is rushing ahead, use negative values
+- **Use debug overlay**: It's actually useful for understanding what's happening
+- **Manual override when needed**: Sometimes you know better than the AI
+
+## Contributing (Join the Sync Revolution)
+
+Found a bug? Have an idea? Want to make the documentation even more ridiculous? Pull requests welcome!
+
+Just remember:
+- Test with different types of audio (rap, singing, instrumental)
+- Don't break existing functionality
+- Keep the fun factor in any documentation updates
+
+## Credits and Thanks
+
+Created for the Absynth Finetune workflow because manually fixing sync in post-production is about as fun as debugging regex at 3 AM.
+
+Special thanks to everyone who suffered through bad lip-sync before this existed.
+
+## Support
+
+- **GitHub Issues**: For when things break spectacularly
+- **ComfyUI Discord**: For general "how do I even use this" questions  
+- **YouTube Tutorials**: [Electric-Dreamz Channel](https://www.youtube.com/@Electric-Dreamz)
+
+---
+
+*Version 1.0 - "The One That Actually Works"*
+
+*No AIs were harmed in the making of this node. Some developers lost sleep, but they're used to it.*
