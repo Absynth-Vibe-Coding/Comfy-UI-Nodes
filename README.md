@@ -241,7 +241,7 @@ IMPORTANT: use 32 frames in the VHS Combine, since Wan 2.2 S2V does 16 frames, M
 Found a bug? Have an idea? Want to make the documentation even more ridiculous? Pull requests welcome!
 
 Just remember:
-- Test with different types of audio (rap, singing, instrumental)
+- Test with different types of audio (rap, singing, speech)
 - Don't break existing functionality
 - Keep the fun factor in any documentation updates
 
