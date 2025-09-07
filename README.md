@@ -182,14 +182,13 @@ is the music slower than the sync offset needs to be 5, 10...
 - Make sure your audio isn't just 10 seconds of silence
 
 
-<img width="1713" height="778" alt="image" src="https://github.com/user-attachments/assets/1e0d57c0-7c1d-428f-8632-223ddecf5e7e" />
-
-
 ### "The Debug Overlay Looks Like Christmas Lights"
 **Red and green corners flashing randomly?**
 - Your video might have too much motion or your audio might be too chaotic
 - Try with cleaner source material
 - Increase smoothing_factor to calm things down
+
+<img width="1713" height="778" alt="image" src="https://github.com/user-attachments/assets/1e0d57c0-7c1d-428f-8632-223ddecf5e7e" />
 
 ## Real Talk: What This Node Can and Can't Do
 
