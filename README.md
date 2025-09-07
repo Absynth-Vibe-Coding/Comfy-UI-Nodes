@@ -162,6 +162,9 @@ is the music slower than the sync offset needs to be 5, 10...
 
 ## When Things Go Sideways (Troubleshooting)
 
+<img width="1713" height="778" alt="image" src="https://github.com/user-attachments/assets/1e0d57c0-7c1d-428f-8632-223ddecf5e7e" />
+
+
 ### "The Sync is Still Terrible"
 **Correlation score below 0.3?**
 - Crank up `audio_sensitivity` to 2.0 or 3.0
