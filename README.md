@@ -152,6 +152,14 @@ The node works like a detective investigating a crime scene:
 
 It's basically doing what your brain does automatically when watching movies, but with math.
 
+Settings: You have to ajdust settings per video, just try!
+is the music faster than the video? then set sync offset to -5, -10...
+is the music slower than the sync offset needs to be 5, 10...
+
+<img width="1086" height="441" alt="image" src="https://github.com/user-attachments/assets/a747cda7-9577-489f-9139-019eb7d83d9c" />
+
+
+
 ## When Things Go Sideways (Troubleshooting)
 
 ### "The Sync is Still Terrible"
