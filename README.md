@@ -99,17 +99,8 @@ Think of it as a really smart audio-video matchmaker. It analyzes your audio ene
 
 ### The Copy-Paste Dance
 
-1. Just download the Zip File and extract it to your custom nodes folder, no dependencies
+Just download the Zip File and extract it to your custom nodes folder, no dependencies
 
-2. **Navigate to your ComfyUI folder** like you're exploring a digital jungle:
-   ```
-   ComfyUI/
-   └── custom_nodes/          <- You are here
-       └── (put the new folder here)
-   ```
-
-3. **Create the folder structure** (yes, the hyphens vs underscores thing is intentional):
-   ```
    custom_nodes/
    └── absynth-lipsync-correction/     <- Folder name (with hyphens)
        ├── __init__.py                 <- The "hello ComfyUI" file
