@@ -99,7 +99,7 @@ Think of it as a really smart audio-video matchmaker. It analyzes your audio ene
 
 ### The Copy-Paste Dance
 
-1. **Download this repository** (the green "Code" button is your friend)
+1. Just download the Zip File and extract it to your custom nodes folder, no dependencies
 
 2. **Navigate to your ComfyUI folder** like you're exploring a digital jungle:
    ```
