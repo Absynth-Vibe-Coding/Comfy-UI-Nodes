@@ -89,7 +89,7 @@ Think of it as a really smart audio-video matchmaker. It analyzes your audio ene
 - Connect this node
 - Watch it automatically fix the sync
 - Make coffee while it works
-- Profit
+- Smile
 
 ## Installation (The "Please Don't Break My ComfyUI" Guide)
 
