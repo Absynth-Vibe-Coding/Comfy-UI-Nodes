@@ -231,8 +231,8 @@ You now do:
 - **Use debug overlay**: It's actually useful for understanding what's happening
 - **Manual override when needed**: Sometimes you know better than the AI
 
-<strong>Example in my S2V Workflow - works also great with rife for smooth motion</strong>
-IMPORTANT: use 32 frames in the VHS Combine, since Wan 2.2 S2V does 16 frames - Multiplier 2 = 32 Frames
+<strong>Example in my S2V Workflow - works also great with rife for smooth motion</strong><br>
+IMPORTANT: use 32 frames in the VHS Combine, since Wan 2.2 S2V does 16 frames, Multiplier 2 = 32 Frames
 <img width="2090" height="794" alt="image" src="https://github.com/user-attachments/assets/faaaf3f2-15ca-4f5e-bd06-5976ebc60399" />
 
 
