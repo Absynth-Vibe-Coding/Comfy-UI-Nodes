@@ -99,13 +99,7 @@ Think of it as a really smart audio-video matchmaker. It analyzes your audio ene
 
 ### The Copy-Paste Dance
 
-Just download the Zip File and extract it to your custom nodes folder, no dependencies
-
-   custom_nodes/
-   └── absynth-lipsync-correction/     <- Folder name (with hyphens)
-       ├── __init__.py                 <- The "hello ComfyUI" file
-       └── absynth_lipsync_correction.py   <- The magic happens here (underscores)
-   ```
+1. Just download the Zip File and extract it to your custom nodes folder, no dependencies
 
 4. **Restart ComfyUI** (the classic "turn it off and on again" move)
 
