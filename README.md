@@ -265,4 +265,4 @@ Special thanks to everyone who suffered through bad lip-sync before this existed
 
 *Version 1.0 - "The One That Actually Works"*
 
-*No AIs were harmed in the making of this node. Some developers lost sleep, but they're used to it.*
+*No AIs were harmed in the making of this node. Some guy lost sleep, but he is used to it.*
