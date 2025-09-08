@@ -146,7 +146,7 @@ Your Awesome Video → [Absynth LipSync Correction] → Final Perfect Video
 <img width="824" height="474" alt="image" src="https://github.com/user-attachments/assets/09d40f4c-3a9c-44e0-aa52-c0d693889f8a" />
 
 
-The node works like a detective investigating a crime scene:
+The node works like Einstein investigating a molecule:
 
 1. **Audio Investigation**: "When does the audio get exciting?" (RMS energy analysis)
 2. **Visual Investigation**: "When do things move in the video?" (frame difference detection)
