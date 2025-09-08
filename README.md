@@ -157,7 +157,7 @@ It's basically doing what your brain does automatically when watching movies, bu
 
 Settings: You have to ajdust settings per video, just try!
 is the music faster than the video? then set sync offset to -5, -4... - it depends on your offset -
-is the music slower than the sync offset needs to be 5, 10...
+is the music slower, than the sync offset needs to be 5, 4...
 
 <strong>Crop your Audio perfectly, so its easier for Wan 2.2 and my Node</strong>
 
