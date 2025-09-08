@@ -143,6 +143,8 @@ Your Awesome Video → [Absynth LipSync Correction] → Final Perfect Video
 **sync_report**: A report card telling you how well everything worked. Look for correlation scores above 0.3 for good results.
 
 ## The Science-y Bit (For the Curious)
+<img width="824" height="474" alt="image" src="https://github.com/user-attachments/assets/09d40f4c-3a9c-44e0-aa52-c0d693889f8a" />
+
 
 The node works like a detective investigating a crime scene:
 
