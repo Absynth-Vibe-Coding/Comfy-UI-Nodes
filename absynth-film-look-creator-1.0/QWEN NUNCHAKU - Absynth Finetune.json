@@ -1,0 +1,644 @@
+{
+  "id": "91f6bbe2-ed41-4fd6-bac7-71d5b5864ecb",
+  "revision": 0,
+  "last_node_id": 125,
+  "last_link_id": 203,
+  "nodes": [
+    {
+      "id": 104,
+      "type": "CLIPLoader",
+      "pos": [
+        252.00372314453125,
+        229.37692260742188
+      ],
+      "size": [
+        380,
+        106
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "slot_index": 0,
+          "links": [
+            181,
+            182
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.51",
+        "Node name for S&R": "CLIPLoader"
+      },
+      "widgets_values": [
+        "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "qwen_image",
+        "default"
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 108,
+      "type": "NunchakuQwenImageDiTLoader",
+      "pos": [
+        138.40516662597656,
+        56.89183807373047
+      ],
+      "size": [
+        508.44873046875,
+        106
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            197
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-nunchaku",
+        "ver": "17c9fb8260879267f705d4b7b25cc700d794a826",
+        "Node name for S&R": "NunchakuQwenImageDiTLoader",
+        "aux_id": "nunchaku-tech/ComfyUI-nunchaku"
+      },
+      "widgets_values": [
+        "svdq-fp4_r128-qwen-image.safetensors",
+        "disable"
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 112,
+      "type": "VAELoader",
+      "pos": [
+        297.1101989746094,
+        394.35028076171875
+      ],
+      "size": [
+        330,
+        60
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "slot_index": 0,
+          "links": [
+            186
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.51",
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "qwen_image_vae.safetensors"
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 115,
+      "type": "VAEDecode",
+      "pos": [
+        1203.779052734375,
+        100.33931732177734
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 185
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 186
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            199
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.51",
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": [],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 107,
+      "type": "KSampler",
+      "pos": [
+        1155.4608154296875,
+        230.25909423828125
+      ],
+      "size": [
+        315,
+        262
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 197
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 177
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 178
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 198
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "slot_index": 0,
+          "links": [
+            185
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.51",
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        136776974645408,
+        "randomize",
+        20,
+        1,
+        "res_multistep",
+        "sgm_uniform",
+        1
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 125,
+      "type": "FastLaplacianSharpen",
+      "pos": [
+        1916.8726806640625,
+        1.1835041046142578
+      ],
+      "size": [
+        428.9425354003906,
+        58
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 202
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            203
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "vrgamegirl19/comfyui-vrgamedevgirl",
+        "ver": "0c5580921e6e6ad56f9fc1ecddce3264790a15fb",
+        "Node name for S&R": "FastLaplacianSharpen",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        0.20000000000000004
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 123,
+      "type": "PreviewImage",
+      "pos": [
+        2389.53125,
+        2.888777732849121
+      ],
+      "size": [
+        1229.89697265625,
+        800.0784301757812
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 203
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.59",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": [],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 124,
+      "type": "CLIPTextEncode",
+      "pos": [
+        689.8507690429688,
+        -243.2982940673828
+      ],
+      "size": [
+        422.84503173828125,
+        164.31304931640625
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": []
+        }
+      ],
+      "title": "CLIP Text Encode (Positive Prompt)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.51",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "Super Realism portrait ultra cinematic realistic closeup portrait shot of a blond cyberpunk model posing in a toyo cyberpunk city with lots of neon light signs and display ads close to the back to the future car delorean. she has big breats and a short futuristic skirt and trenchcoat and tatoos and cyberpunk jewelery."
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 121,
+      "type": "EmptyLatentImage",
+      "pos": [
+        756.372314453125,
+        343.0518493652344
+      ],
+      "size": [
+        270,
+        106
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            198
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.59",
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        1440,
+        896,
+        1
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 111,
+      "type": "CLIPTextEncode",
+      "pos": [
+        763.0299072265625,
+        279.5308532714844
+      ],
+      "size": [
+        425.27801513671875,
+        180.6060791015625
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 182
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            178
+          ]
+        }
+      ],
+      "title": "CLIP Text Encode (Negative Prompt)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.51",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        " "
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 110,
+      "type": "CLIPTextEncode",
+      "pos": [
+        683.532470703125,
+        55.508026123046875
+      ],
+      "size": [
+        422.84503173828125,
+        164.31304931640625
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 181
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            177
+          ]
+        }
+      ],
+      "title": "CLIP Text Encode (Positive Prompt)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.51",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "Super Realism portrait ultra cinematic realistic closeup portrait shot of a blond model with long hair black leather bikini and big breasts and tattoos, one tatto hast the text in graffity style ABSYNTH and very sexy body posing in new york city street, huge skyscrapers in the background and display ads with sign ABSYNTH."
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 122,
+      "type": "FilmLookCreator",
+      "pos": [
+        1516.990234375,
+        -4.6216206550598145
+      ],
+      "size": [
+        355.9464416503906,
+        860.628173828125
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 199
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            202
+          ]
+        },
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FilmLookCreator"
+      },
+      "widgets_values": [
+        "Custom",
+        -16.5,
+        1,
+        1,
+        0,
+        0,
+        0,
+        "NaturalBoost.cube",
+        0.58,
+        "ABSYNTH Natural Portrait",
+        "None",
+        false,
+        false,
+        0,
+        0,
+        0.59,
+        0,
+        0,
+        0,
+        "#000000",
+        0,
+        "#FFFFFF",
+        0,
+        0,
+        "NOTE: Presets only save after you click Run. Presets only update after you restart Comfy. You can`t edit all presets right now - you must set preset to custom, or edit them in the json file.\n           (       )    )           )   \n   (      (  )\\ ) ( /( ( /(  * ) ( /(   \n   )\\   ( )\\(()/( )\\()))\\()` )  /( )\\())  \n((((_)( )((_)/(_)((_)\\((_)\\ ( )(_)((_)\\   \n )\\ _ )((_)_(_)) ___ ((_)_((_(_(_()) _((_)  \n (_)_\\(_ | _ \\  /    \\ \\ / / | \\| | |_   _| | || |  \n  / _ \\  | _ |  \\__   \\ V /  | .` |   | |   | __ |  \n /_/ \\_\\ |___/  ___/   |_|   |_|\\_|   |_|   |_||_| ©2025 \n\n\nhttps://www.youtube.com/@Electric-Dreamz\nhttps://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/\nhttps://huggingface.co/ABSYNTH-VibeCoding \n                                          "
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    }
+  ],
+  "links": [
+    [
+      177,
+      110,
+      0,
+      107,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      178,
+      111,
+      0,
+      107,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      181,
+      104,
+      0,
+      110,
+      0,
+      "CLIP"
+    ],
+    [
+      182,
+      104,
+      0,
+      111,
+      0,
+      "CLIP"
+    ],
+    [
+      185,
+      107,
+      0,
+      115,
+      0,
+      "LATENT"
+    ],
+    [
+      186,
+      112,
+      0,
+      115,
+      1,
+      "VAE"
+    ],
+    [
+      197,
+      108,
+      0,
+      107,
+      0,
+      "MODEL"
+    ],
+    [
+      198,
+      121,
+      0,
+      107,
+      3,
+      "LATENT"
+    ],
+    [
+      199,
+      115,
+      0,
+      122,
+      0,
+      "IMAGE"
+    ],
+    [
+      202,
+      122,
+      0,
+      125,
+      0,
+      "IMAGE"
+    ],
+    [
+      203,
+      125,
+      0,
+      123,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.6830134553650705,
+      "offset": [
+        -116.00784625527406,
+        70.9788756232306
+      ]
+    },
+    "frontendVersion": "1.25.11",
+    "ue_links": [],
+    "links_added_by_ue": [],
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
