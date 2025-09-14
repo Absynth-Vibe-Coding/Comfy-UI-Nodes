@@ -5,7 +5,7 @@ AI Vibed Coded Nodes for Comfy UI
 <strong>Crafting a cinematic aesthetic for your digital art!</strong>
 
 <img width="1440" height="896" alt="Qwen-Image-Nunchaku-20-Steps-Absynth-FilmLook-Laplacian-Sharpener5" src="https://github.com/user-attachments/assets/7a0ceb6b-0ef9-4a12-8c2b-03be9d5ba3f9" />
-Image done using QWEN Nunchaku + Absynth Film Look Creator + Laplacian Sharpener <- workflow in the folder <br><br>
+Image done using QWEN Nunchaku + Absynth Film Look Creator + Laplacian Sharpener <- workflow in the folder. 20 Steps with a 5060TI 16 GB VRAM. <br><br>
 
 The Absynth Film Look Creator is a custom ComfyUI & fully AI Vibe Coded Node, to elevate your digital renders with professional-grade cinematic qualities. This tool provides a comprehensive suite of controls for film emulation and atmospheric enhancement, allowing you to move beyond simple filters and achieve a truly distinctive visual style. Inspired by the rich, imperfect character of analog film and classic cinematography, it offers precise control over every aspect of your image's look and feel.
 
