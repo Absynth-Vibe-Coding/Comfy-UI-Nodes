@@ -61,6 +61,7 @@ The Absynth Film Look Creator is a custom ComfyUI & fully AI Vibe Coded Node, to
 
 <img width="1440" height="896" alt="image" src="https://github.com/user-attachments/assets/97501960-a16f-4d70-adda-783a1a564155" />
 
+<img width="1440" height="896" alt="ComfyUI_temp_aosrp_00294_" src="https://github.com/user-attachments/assets/d2d259d4-d2b1-4f83-923b-b19be0e2046d" />
 
 <p>I welcome contributions, feedback, and bug reports. Your input is valuable in helping me refine this tool and expand its capabilities for the creative community.</p>
 
