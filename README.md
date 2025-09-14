@@ -55,9 +55,12 @@ The Absynth Film Look Creator is a custom ComfyUI & fully AI Vibe Coded Node, to
 
 <p>In the first node set the preset to custom and in the second choose a preset, then you can make changes in the first node - run and that will change the preset.</p>
 
-<br><br>
+<br>
 <img width="1440" height="896" alt="ComfyUI_temp_aosrp_00016_" src="https://github.com/user-attachments/assets/87da301c-3344-4e32-80de-6d371c1883c1" />
+<br>
 
+<img width="1440" height="896" alt="ComfyUI_temp_aosrp_00202_" src="https://github.com/user-attachments/assets/e468b001-a6d6-4d7f-a0a5-10917fcc6294" />
+<br>
 
 <p>I welcome contributions, feedback, and bug reports. Your input is valuable in helping me refine this tool and expand its capabilities for the creative community.</p>
 
