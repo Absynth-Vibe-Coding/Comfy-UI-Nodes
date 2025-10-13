@@ -13,7 +13,6 @@
 - [Tips and Tricks](#tips-and-tricks)
 - [Troubleshooting](#troubleshooting)
 - [FAQ](#faq)
-- Example: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/blob/main/Absynth-VST/Absynth-VST-Generated-Serum2.flac
 
 ---
 
