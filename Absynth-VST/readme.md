@@ -67,7 +67,7 @@ Turn it off and on again. Works every time. 🔌
 2. In the VST Player type in your vst3 path like: C:\Program Files\Common Files\VST3\Serum2.vst3
 3. Select a Preset from the list, you can add presets in format .vstpreset <- only these will work
 4. if you want you can change cutoff...using the parameters midi cc
-5. In the LLM Node **Set provider to:** `local` with ollama to use your local LLM or use GPT... works great with qwen3-coder:14b
+5. In the LLM Node **Set provider to:** `local` or for LLM to ollama to use your local LLM or use GPT... works great with qwen3-coder:14b
 6. **Set temperature to:** `1.2` 
 7. Type in Prompt, see examples
 8. You can also use a MIDI from the list which is in the folder MIDI, add as many as you like
