@@ -672,8 +672,6 @@ Cool! Open an issue on GitHub with:
 
 Go forth and make bangers. The AI gods have blessed you with generative MIDI.
 
-Remember: Temperature 1.2 is the way. 🔥
-
 Now stop reading documentation and start making music! 🎵🎹🎸
 
 ---
