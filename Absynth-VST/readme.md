@@ -79,9 +79,6 @@ Turn it off and on again. Works every time. 🔌
 9. **Click Queue Prompt**
 11. **Receive 🎵 and the MIDI
 
-<img width="437" height="716" alt="image" src="https://github.com/user-attachments/assets/8a7575c1-717f-47c1-bc51-7aacf044e670" />
-
-<img width="432" height="408" alt="image" src="https://github.com/user-attachments/assets/7b8165d9-be21-4eba-a7b7-ee70275a3b0c" />
 
 
 ---
@@ -89,8 +86,9 @@ Turn it off and on again. Works every time. 🔌
 ## The Nodes
 
 ### 1. Absynth-VST Player 🎹
-
 **What it does:** Loads your expensive VST plugins and makes them work in ComfyUI.
+
+<img width="437" height="716" alt="image" src="https://github.com/user-attachments/assets/8a7575c1-717f-47c1-bc51-7aacf044e670" />
 
 **Inputs:**
 - `vst_path` - Where your VST lives (find it or it finds you)
@@ -241,6 +239,7 @@ Creates a rising C major scale that ends with a long note. Beautiful. 😢
 ---
 
 ## 5. Absynth-VST  MIDI Generator
+<img width="432" height="408" alt="image" src="https://github.com/user-attachments/assets/7b8165d9-be21-4eba-a7b7-ee70275a3b0c" />
 
 **What it does:** Uses AI to generate MIDI. Or just generates good MIDI locally. Either way, you get bangers.
 
