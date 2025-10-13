@@ -9,7 +9,7 @@
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [The Nodes](#the-nodes)
-- [LLM MIDI Generator - The Star of the Show](#llm-midi-generator---the-star-of-the-show)
+- [LLM MIDI Generator - Still experimental - bigger LLM more chance for better result ](#llm-midi-generator---the-star-of-the-show)
 - [Tips and Tricks](#tips-and-tricks)
 - [Troubleshooting](#troubleshooting)
 - [FAQ](#faq)
@@ -67,7 +67,7 @@ Turn it off and on again. Works every time. 🔌
 2. In the VST Player type in your vst3 path like: C:\Program Files\Common Files\VST3\Serum2.vst3
 3. Select a Preset from the list, you can add presets in format .vstpreset <- only these will work
 4. if you want you can change cutoff...using the parameters midi cc
-5. In the LLM Node **Set provider to:** `local` or for LLM to ollama to use your local LLM or use GPT... works great with qwen3-coder:14b
+5. In the LLM Node **Set provider to:** `local` <- randomly generates pretty good stuff or use LLM like in ollama, GPT... <- still experimental
 6. **Set temperature to:** `1.2` 
 7. Type in Prompt, see examples
 8. You can also use a MIDI from the list which is in the folder MIDI, add as many as you like
@@ -230,16 +230,16 @@ Creates a rising C major scale that ends with a long note. Beautiful. 😢
 
 ---
 
-### 5. Absynth-VST LLM MIDI Generator ⭐ (THE STAR OF THE SHOW)
+### 5. Absynth-VST  MIDI Generator ⭐ (THE STAR OF THE SHOW)
 
 **What it does:** Uses AI to generate MIDI. Or just generates good MIDI locally. Either way, you get bangers.
 
 **Inputs:**
 - `prompt` - Describe your musical vision (or "make bleep bloop")
 - `api_key` - Your API key (if using OpenAI/Anthropic)
-- `llm_provider` - `local`, `ollama`, `openai`, or `anthropic`
-- `model` - Model name (if using LLM)
-- `temperature` - **SET TO 1.2 FOR MAGIC** 🔥
+- `_provider` - `local`, `ollama`, `openai`, or `anthropic`
+- `model` - Model name (if using )
+- `temperature` - **SET TO 1.2...try **
 - `seed` - `-1` for random, or set number for reproducibility
 - `bpm` - Beats per minute (128 for techno, 90 for chill)
 - `duration` - Length in seconds (10 is a good start)
@@ -250,7 +250,7 @@ Creates a rising C major scale that ends with a long note. Beautiful. 😢
 
 ---
 
-## LLM MIDI Generator - The Star of the Show
+##  MIDI Generator - The Star of the Show
 
 ### Temperature Guide 🌡️
 
@@ -259,8 +259,8 @@ Creates a rising C major scale that ends with a long note. Beautiful. 😢
 - **0.0-0.3** - Boring predictable patterns (for elevator music)
 - **0.4-0.7** - Balanced and reliable (safe choice)
 - **0.8-1.0** - Getting creative (nice variety)
-- **1.2** - ✨ **THE SWEET SPOT** ✨ (discovered by our users, chef's kiss)
-- **1.3-1.8** - Experimental chaos (sometimes brilliant, sometimes broken)
+- **1.2** - ✨ **pretty good also for the local setting** ✨
+- **1.3-1.8** - Experimental chaos (sometimes ok, sometimes broken)
 - **1.9-2.0** - Full artistic insanity (code might explode, music might transcend)
 
 ### Prompt Examples
