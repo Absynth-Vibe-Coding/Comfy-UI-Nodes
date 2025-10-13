@@ -201,7 +201,10 @@ custom_nodes/
 
 ---
 
-### 3. Absynth-VST MIDI Creator ✏️ #llm-midi-generator
+### 3. Absynth-VST MIDI Creator ✏️
+
+<img width="334" height="220" alt="image" src="https://github.com/user-attachments/assets/a9a2eef9-cc69-44b0-a896-0ab12363a14b" />
+
 
 **What it does:** Creates simple MIDI files when you're feeling old school.
 
@@ -222,6 +225,8 @@ Creates a rising C major scale that ends with a long note. Beautiful. 😢
 ---
 
 ### 4. Absynth-VST Info Display 📊
+<img width="466" height="379" alt="image" src="https://github.com/user-attachments/assets/c9992412-7382-442d-bfe9-64fd8978458d" />
+
 
 **What it does:** Shows you what the VST Player just did.
 
