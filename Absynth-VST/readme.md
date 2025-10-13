@@ -79,7 +79,6 @@ Turn it off and on again. Works every time. 🔌
 
 <img width="432" height="408" alt="image" src="https://github.com/user-attachments/assets/7b8165d9-be21-4eba-a7b7-ee70275a3b0c" />
 
-**Optional:** Connect to VST Player node if you actually want to hear it.
 
 ---
 
