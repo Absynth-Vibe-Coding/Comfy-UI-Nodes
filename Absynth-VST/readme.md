@@ -583,7 +583,7 @@ A: Tt creates a good balance of creativity and coherence. Not too predictable, n
 
 ### Q: Do I need an LLM to use this?
 
-A: You can use this also without LLMs just select a Midi File
+A: You can use this also without LLMs just select a Midi File or switch to local generation
 
 ### Q: What if I want silence?
 
