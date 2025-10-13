@@ -1,6 +1,8 @@
 <h1>🎹 Absynth-VST Documentation</h1>
 <strong>Turn your VST plugins into ComfyUI nodes and let AI write your bangers. Yes, really.</strong>
 
+<img width="2121" height="757" alt="image" src="https://github.com/user-attachments/assets/0c707457-a414-4924-9a1f-e5f719567c85" />
+
 
 ## 📖 Table of Contents
 
@@ -30,15 +32,14 @@ Think of it as your DAW, but inside ComfyUI, powered by LLMs that may or may not
 
 ## Installation
 
-### Step 1: Clone This Bad Boy
+### Step 1: Download the ZIP and put the Absynth-vst folder in your Custom Nodes folder like its 1999
 
-```bash
-cd ComfyUI/custom_nodes
-git clone https://github.com/yourusername/absynth-vst
-cd absynth-vst
-```
+Enter the Matrix...i mean the Absynth-vst folder
 
-### Step 2: Install Dependencies
+### Step 2: 
+
+- open CMD
+- Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -52,14 +53,6 @@ pip install -r requirements.txt
 - `MIDIUtil` - MIDI generation (your new best friend)
 - `requests` - For talking to Ollama (optional)
 
-**Optional LLM Support:**
-```bash
-# For OpenAI
-pip install openai
-
-# For Anthropic Claude
-pip install anthropic
-```
 
 ### Step 3: Restart ComfyUI
 
@@ -71,12 +64,20 @@ Turn it off and on again. Works every time. 🔌
 
 ### The "I Just Want To Make Music" Speedrun:
 
-1. **Add LLM MIDI Generator node**
-2. **Type:** `"Create a dark techno bassline in D minor"`
-3. **Set provider to:** `local`
-4. **Set temperature to:** `1.2` (trust us on this one 😉)
-5. **Click Queue Prompt**
-6. **Receive banger** 🎵
+1. The ComfyUI Workflow is in the folder Workflow
+2. In the VST Player type in your vst3 path like: C:\Program Files\Common Files\VST3\Serum2.vst3
+3. Select a Preset from the list, you can add presets in format .vstpreset <- only these will work
+4. if you want you can change cutoff...using the parameters midi cc
+5. In the LLM Node **Set provider to:** `local` with ollama to use your local LLM or use GPT... works great with qwen3-coder:14b
+6. **Set temperature to:** `1.2` 
+7. Type in Prompt, see examples
+8. You can also use a MIDI from the list which is in the folder MIDI, add as many as you like
+9. **Click Queue Prompt**
+11. **Receive 🎵 and the MIDI
+
+<img width="437" height="716" alt="image" src="https://github.com/user-attachments/assets/8a7575c1-717f-47c1-bc51-7aacf044e670" />
+
+<img width="432" height="408" alt="image" src="https://github.com/user-attachments/assets/7b8165d9-be21-4eba-a7b7-ee70275a3b0c" />
 
 **Optional:** Connect to VST Player node if you actually want to hear it.
 
