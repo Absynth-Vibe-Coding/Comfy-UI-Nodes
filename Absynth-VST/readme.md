@@ -68,7 +68,7 @@ Turn it off and on again. Works every time. 🔌
 2. In the VST Player type in your vst3 path like: C:\Program Files\Common Files\VST3\Serum2.vst3
 3. Select a Preset from the list, you can add presets in format .vstpreset <- only these will work
 4. if you want you can change cutoff...using the parameters midi cc
-5. In the LLM Node **Set provider to:** `local` <- randomly generates pretty good stuff or use LLM like in ollama, GPT... <- still experimental try for example local deepseek hihi_ai/deepseek-r1-abliterated:14b
+5. In the LLM Node **Set provider to:** `local` <- randomly generates pretty good stuff or use LLM like in ollama, GPT... <- still experimental try for example local deepseek huihui_ai/deepseek-r1-abliterated:14b thsis one got some really good seeds, quite musical
 6. **Set temperature to:** `1.2` 
 7. Type in Prompt, see examples
 8. You can also use a MIDI from the list which is in the folder MIDI, add as many as you like
