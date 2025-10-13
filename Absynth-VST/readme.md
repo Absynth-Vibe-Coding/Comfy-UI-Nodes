@@ -1,6 +1,7 @@
 <h1>🎹 Absynth-VST Documentation</h1>
 <strong>Turn your VST plugins into ComfyUI nodes and let AI write your bangers. Yes, really.</strong>
 
+
 ## 📖 Table of Contents
 
 - [What The Heck Is This?](#what-the-heck-is-this)
@@ -81,7 +82,7 @@ Turn it off and on again. Works every time. 🔌
 
 ---
 
-## 🎛️ The Nodes
+## The Nodes
 
 ### 1. Absynth-VST Player 🎹
 
@@ -250,7 +251,7 @@ Creates a rising C major scale that ends with a long note. Beautiful. 😢
 
 ---
 
-## 🎵 LLM MIDI Generator: The Star of the Show
+## LLM MIDI Generator - The Star of the Show
 
 ### Temperature Guide 🌡️
 
@@ -398,7 +399,7 @@ Quality: Excellent
 
 ---
 
-## 💡 Tips & Tricks
+## Tips and Tricks
 
 ### Golden Workflows
 
@@ -454,7 +455,7 @@ Generate MIDI, but control the VST parameters for unique sounds.
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### "VST not found!"
 
@@ -559,7 +560,7 @@ Should work out of the box. If not, you might need Visual C++ Build Tools.
 
 ---
 
-## ❓ FAQ
+## FAQ
 
 ### Q: Can I use this commercially?
 
