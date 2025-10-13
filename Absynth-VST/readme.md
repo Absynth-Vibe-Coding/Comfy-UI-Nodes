@@ -487,7 +487,7 @@ Use the actual path on YOUR system, not the default.
 
 ### "No MIDI files in dropdown!"
 
-**Problem:** MIDI dropdown only shows "select MIDI file"
+**Problem:** MIDI dropdown only shows "select MIDI file or let it locally and randomly generate Midi for you"
 
 **Solution:**
 1. Put .mid files in `custom_nodes/absynth-vst/midi/`
