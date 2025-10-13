@@ -197,7 +197,7 @@ custom_nodes/
 
 ---
 
-### 3. Absynth-VST MIDI Creator ✏️
+### 3. Absynth-VST MIDI Creator ✏️ #llm-midi-generator
 
 **What it does:** Creates simple MIDI files when you're feeling old school.
 
