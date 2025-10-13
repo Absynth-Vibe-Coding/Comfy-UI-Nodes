@@ -561,25 +561,18 @@ Should work out of the box. If not, you might need Visual C++ Build Tools.
 
 ## FAQ
 
-### Q: Can I use this commercially?
-
-A: Check your VST licenses and LLM provider terms. The code itself is free to use.
 
 ### Q: Why temperature 1.2 specifically?
 
-A: One of our users discovered it creates the perfect balance of creativity and coherence. Not too predictable, not too chaotic. Just right. 🐻
+A: Tt creates a good balance of creativity and coherence. Not too predictable, not too chaotic. The result will also depend on your presets of course, is it an arp...and hey its still only AI ;-)
 
 ### Q: Do I need an LLM to use this?
 
-A: Nope! Set provider to `local` and it generates good music instantly without any AI magic.
-
-### Q: Can I generate loops?
-
-A: Yes! Just set duration to 8 or 16 seconds and most generations will loop nicely.
+A: You can use this also without LLMs just select a Midi File
 
 ### Q: What if I want silence?
 
-A: Then why are you here? 😄 But seriously, set velocity to 0 or duration to 0.01.
+A: Then why are you here? 😄
 
 ### Q: Can I load multiple VSTs at once?
 
@@ -591,11 +584,10 @@ A: Use the Parameter Lister with search filter! Type "cutoff" to find only cutof
 
 ### Q: Can this replace my DAW?
 
-A: For quick ideas and experimentation? Yes! For full production? Probably not (yet). But it's getting there!
+A: Hello?? Of course not!
 
 ### Q: Why is it called Absynth-VST?
-
-A: Because we like absinth... I mean, it's for synthesizing abstract sounds. Yeah, that's it. 🍸
+Because i use this Nickname since 25 years of music producing
 
 ---
 
