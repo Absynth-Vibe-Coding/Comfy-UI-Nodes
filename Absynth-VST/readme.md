@@ -175,6 +175,10 @@ custom_nodes/
 
 ### 2. Absynth-VST Parameter Lister 🔍
 
+<img width="1733" height="778" alt="image" src="https://github.com/user-attachments/assets/bed9d8aa-0d06-448a-9e9f-5933d2ce51b8" />
+
+Leave Empty and hit run to show all parameters of a VST
+
 **What it does:** Lists every single parameter in your VST. All 847 of them. Have fun.
 
 **Inputs:**
