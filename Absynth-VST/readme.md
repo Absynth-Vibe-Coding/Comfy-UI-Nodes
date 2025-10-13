@@ -477,6 +477,7 @@ Use the actual path on YOUR system, not the default.
 - Check the blacklist (Spire, Omnisphere, Kontakt, Massive X)
 - Try these confirmed working VSTs:
   - Serum ✅
+  - Viper
   - Vital ✅
   - Surge XT ✅
   - Dexed ✅
