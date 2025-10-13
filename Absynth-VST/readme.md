@@ -67,11 +67,15 @@ Turn it off and on again. Works every time. 🔌
 1. The ComfyUI Workflow is in the folder Workflow
 2. In the VST Player type in your vst3 path like: C:\Program Files\Common Files\VST3\Serum2.vst3
 3. Select a Preset from the list, you can add presets in format .vstpreset <- only these will work
+<img width="605" height="788" alt="image" src="https://github.com/user-attachments/assets/e92788d4-1357-4793-baf7-783773b1adfa" />
+
 4. if you want you can change cutoff...using the parameters midi cc
 5. In the LLM Node **Set provider to:** `local` <- randomly generates pretty good stuff or use LLM like in ollama, GPT... <- still experimental try for example local deepseek huihui_ai/deepseek-r1-abliterated:14b thsis one got some really good seeds, quite musical
 6. **Set temperature to:** `1.2` 
 7. Type in Prompt, see examples
 8. You can also use a MIDI from the list which is in the folder MIDI, add as many as you like
+<img width="698" height="811" alt="image" src="https://github.com/user-attachments/assets/5030da5b-b84f-4e46-891b-3ff909432019" />
+
 9. **Click Queue Prompt**
 11. **Receive 🎵 and the MIDI
 
