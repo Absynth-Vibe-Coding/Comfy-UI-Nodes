@@ -1,15 +1,3 @@
-
-             (       )    )           )   
-     (      (  )\ ) ( /( ( /(  * ) ( /(   
-     )\   ( )\(()/( )\()))\()` )  /( )\())  
-  ((((_)( )((_)/(_)((_)\((_)\ ( )(_)((_)\   
-   )\ _ )((_)_(_)) ___ ((_)_((_(_(_()) _((_)  
-   (_)_\(_ | _ \  /    \ \ / / | \| | |_   _| | || |  
-    / _ \  | _ |  \__   \ V /  | .` |   | |   | __ |  
-   /_/ \_\ |___/  ___/   |_|   |_|\_|   |_|   |_||_| ©2025  
-
-                   VSTs in ComfyUI!
-
 <h1>🎹 VST Plugins in ComfyUI by ABSYNTH</h1>
 Turn your VST plugins into ComfyUI nodes and let AI write your bangers. Yes, really!
 
