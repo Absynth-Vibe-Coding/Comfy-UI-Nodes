@@ -24,7 +24,7 @@ Absynth-VST is a ComfyUI custom node that lets you:
 2. **Generate MIDI with AI** (or without, we don't judge)
 3. **Render audio** directly in your ComfyUI workflow
 4. **Control parameters** like a DJ on too much coffee
-5. Local Random Midi Generator <- can give you actually pretty good stuff which is usable in your daw
+5. Local Random Midi Generator <- can give you actually pretty good stuff which is usable in your daw.<br>
 Local is basicly Claude 4.5 it wrote the whole thing :-)
 
 Think of it as your DAW, but inside ComfyUI, powered by LLMs that may or may not have better music taste than you.
