@@ -9,7 +9,7 @@
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [The Nodes](#the-nodes)
-- [LLM MIDI Generator - Still experimental - bigger LLM more chance for better result ](#llm-midi-generator---the-star-of-the-show)
+- [LLM MIDI Generator - Still experimental - bigger LLM more chance for better result ](#llm-midi-generator)
 - [Tips and Tricks](#tips-and-tricks)
 - [Troubleshooting](#troubleshooting)
 - [FAQ](#faq)
