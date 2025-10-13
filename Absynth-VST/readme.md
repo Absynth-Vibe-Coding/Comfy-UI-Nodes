@@ -1,6 +1,5 @@
-<h1>🎹 VST Plugins in ComfyUI by ABSYNTH</h1>
-Turn your VST plugins into ComfyUI nodes and let AI write your bangers. Yes, really!
-
+<h1>🎹 Absynth-VST Documentation</h1>
+<strong>Turn your VST plugins into ComfyUI nodes and let AI write your bangers. Yes, really.</strong>
 
 ## 📖 Table of Contents
 
@@ -8,14 +7,14 @@ Turn your VST plugins into ComfyUI nodes and let AI write your bangers. Yes, rea
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [The Nodes](#the-nodes)
-- [LLM MIDI Generator](#llm-midi-generator-the-star-of-the-show)
-- [Tips & Tricks](#tips--tricks)
+- [LLM MIDI Generator - The Star of the Show](#llm-midi-generator---the-star-of-the-show)
+- [Tips and Tricks](#tips-and-tricks)
 - [Troubleshooting](#troubleshooting)
 - [FAQ](#faq)
 
 ---
 
-## 🤔 What The Heck Is This?
+## What The Heck Is This?
 
 Absynth-VST is a ComfyUI custom node that lets you:
 
@@ -28,7 +27,7 @@ Think of it as your DAW, but inside ComfyUI, powered by LLMs that may or may not
 
 ---
 
-## 💾 Installation
+## Installation
 
 ### Step 1: Clone This Bad Boy
 
@@ -67,7 +66,7 @@ Turn it off and on again. Works every time. 🔌
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### The "I Just Want To Make Music" Speedrun:
 
@@ -111,136 +110,64 @@ Turn it off and on again. Works every time. 🔌
 
 **Known Issues (VST Drama):**
 Some VSTs are blacklisted because they crash harder than a dubstep drop:
-- Spire (RIP)
-- Omnisphere (too omnipotent)
-- Kontakt (contact denied)
-- Massive X (massively broken)
+- ❌ **Spire** - Crashes ComfyUI (blacklisted)
+- ❌ **Omnisphere** - Too omnipotent (incompatible)
+- ❌ **Kontakt** - Contact denied (incompatible)
+- ❌ **Massive X** - Massively broken (incompatible)
 
-Recommended working VSTs:
-- ✅ Serum (confirmed banger maker)
-- ✅ Vital (free and excellent)
-- ✅ Surge XT (open source legend)
-- ✅ Dexed (FM synthesis goodness)
+**Tested & Working VSTs:**
+- ✅ **Serum 2** - Confirmed working! (See parameter list below)
+- ✅ **Viper** - Tested and works perfectly
+- ✅ **Vital** - Free and excellent
+- ✅ **Surge XT** - Open source legend
+- ✅ **Dexed** - FM synthesis goodness
 
 ---
 
-Your presets must be in format .vstpreset - Save your fxb Preset in Cubase as .vstpreset and then copy at to the presets folder in my custom node. 
+### 🎛️ Serum 2 Parameter Guide
 
+Here are the parameter indices for Serum 2 (discovered through testing):
 
-VST Plugins that i tested and work:
+**Basic Controls:**
+- **Volume:** Parameter 44
+- **Cutoff:** Parameter 8
+- **Pitch Bend:** Parameter 7
+- **Semitone:** Parameter 1
 
-- SERUM 2
-- VIPER
+**Effects:**
+- **Distortion:** Parameter 9
+- **Panning:** Parameter 22
 
+**Sound Design (Make it weird):**
+- **Detune/Crush:** Parameters 23, 24, 28, 29, 79, 114
+- **Phase:** Parameter 116
 
-VST Plugins that i testend and dont work:
+**Voices & Polyphony (Make it FAT!):**
+- Parameters: 25, 46, 51, 53, 55, 76, 78
+- **Parameter 80 at 0.70** = Trance mania! 🎹
 
-- SPIRE <- crashes comfy so its blacklisted
+**Pro Tip:** Use Parameter Lister node to discover parameters for other VSTs!
 
+---
 
+### 📁 Folder Structure
+
+```
 custom_nodes/
 └── absynth-vst/
-    └── presets/
-        ├── Serum/
-        │   ├── Bass.vstpreset
-        │   └── Lead.vstpreset
-        │   
-        └── Vital/
-            └── Pluck.vstpreset
-        └── midi
-            └── your midi files   
+    ├── presets/
+    │   ├── Serum/
+    │   │   ├── Bass.vstpreset
+    │   │   └── Lead.vstpreset
+    │   └── Vital/
+    │       └── Pluck.vstpreset
+    └── midi/
+        └── your_midi_files.mid
+```
 
+**Important:** Your presets must be in `.vstpreset` format. If you have `.fxb` presets, save them as `.vstpreset` in Cubase (or your DAW) first, then copy them to the presets folder.
 
-LLM Midi Generator: It generates Midi files which are sent to the VST Player and saves the Midi Files in the Midi Folder for you.
-
-
-LLM Prompt Example:
-you are a professional music producer. make an epic pop trance melody with chord progression in e minor.
-
-
-
-Parameters to control your VST (0=off) - Rest just try
-
-Example Serum 2
-
-Volume: Parameter 44
-Cutoff: Paremter 8
-Pitch Bend: Parameter 7
-Semitone: Parameter 1
-Distortion? Paremter 9
-Panning? Parameter 22
-Detune, crush...make it weird Parameter 23, 24, 28, 29, 79, 114
-Voices/Polyphony/Tune... / make it really fat: 
-25, 46, 51, 53, 55, 76, 78, 80 (0.70) trancemania
-Phase: 116
-
-
-
-EXAMPLE PROMPTS
-
-Chord Progressions:
-Create a D major chord progression
-Make C minor chords
-Generate a G major chord progression
-
-Riffs:
-Create a G riff
-Make a dark techno riff in D minor
-Generate an energetic F major riff
-
-Pads:
-Create an F minor pad
-Make a B major ambient pad
-Generate an atmospheric C minor pad
-
-Bass Lines:
-Create a dark techno bassline in D minor
-Make a deep bass in A minor
-Generate a driving bass pattern in E minor
-
-Melodies:
-Create a C minor melody
-Make an uplifting melody in G major
-Generate a fast energetic melody in D major
-
-Complex Combinations:
-Create a sad descending melody in B minor
-Make a slow ballad in F major
-Generate a rising uplifting melody in A major   
-
-
-Temperature Settings:
-
-1.2 worked very well for me! :-)
-
-
-The temperature parameter only affects LLM providers (Ollama, OpenAI, Anthropic). It does NOT affect the "local" fallback generator.
-What Temperature Does:
-Controls how creative/random vs. predictable the LLM's generated code will be:
-
-0.0-0.3: Very deterministic, predictable, safe code
-0.4-0.7: Balanced creativity and reliability ✓ Recommended
-0.8-1.2: More creative, varied patterns
-1.3-2.0: Very experimental, unpredictable (may generate broken code)
-
-Recommended Settings by Provider:
-Local (Fallback Generator):
-
-Temperature: Doesn't matter - ignored by fallback generator
-The seed controls randomness instead
-
-Ollama:
-Temperature: 0.7 - Good balance
-Model: llama2, codellama, or mistral
-OpenAI:
-Temperature: 0.6 - Reliable code generation
-Model: gpt-4, gpt-3.5-turbo
-Anthropic:
-Temperature: 0.7 - Creative but stable
-Model: claude-3-sonnet-20240229   
-    
-
-
+---
 
 ### 2. Absynth-VST Parameter Lister 🔍
 
@@ -380,6 +307,12 @@ Creates a rising C major scale that ends with a long note. Beautiful. 😢
 "Generate a nostalgic 80s synth lead in A minor"
 "Create a chaotic breakcore pattern in D minor"
 ```
+
+**Pro Example (Try This!):**
+```
+"You are a professional music producer. Make an epic pop trance melody with chord progression in E minor."
+```
+This detailed prompt works especially well with LLM providers at temperature 1.2!
 
 ### Supported Keys
 
