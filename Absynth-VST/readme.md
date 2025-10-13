@@ -3,12 +3,6 @@
 
 <img width="2121" height="757" alt="image" src="https://github.com/user-attachments/assets/0c707457-a414-4924-9a1f-e5f719567c85" />
 
-**Trance Melody with Serum 2:**
-<audio controls>
-  <source src="[examples/trance_melody.wav](https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/blob/main/Absynth-VST/Absynth-VST-Generated-Serum2.flac)" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
-
 ## 📖 Table of Contents
 
 - [What The Heck Is This?](#what-the-heck-is-this)
