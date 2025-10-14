@@ -71,7 +71,7 @@ Turn it off and on again. Works every time. 🔌
 <img width="605" height="788" alt="image" src="https://github.com/user-attachments/assets/e92788d4-1357-4793-baf7-783773b1adfa" />
 
 4. if you want you can change cutoff...using the parameters midi cc
-5. In the LLM Node **Set provider to:** `local` <- randomly generates pretty good stuff or use LLM like in ollama, GPT... <- still experimental try for example local deepseek huihui_ai/deepseek-r1-abliterated:14b thsis one got some really good seeds, quite musical
+5. In the LLM Node **Set provider to:** `local` <- randomly generates pretty good stuff or use LLM like in ollama, GPT... <- still experimental try for example local deepseek huihui_ai/deepseek-r1-abliterated:14b thsis one got some really good seeds, quite musical and gpt-oss:20b
 6. **Set temperature to:** `1.2` 
 7. Type in Prompt, see examples
 8. You can also use a MIDI from the list which is in the folder MIDI, add as many as you like
