@@ -122,6 +122,7 @@ Some VSTs are blacklisted because they crash harder than a dubstep drop:
 **Tested & Working VSTs:**
 - ✅ **Serum 2** - Confirmed working! (See parameter list below)
 - ✅ **Viper** - Tested and works perfectly
+- ✅ **DIVA** - Yes it works!
 - ✅ **Vital** - Free and excellent
 - ✅ **Surge XT** - Open source legend
 - ✅ **Dexed** - FM synthesis goodness
@@ -492,6 +493,7 @@ Use the actual path on YOUR system, not the default.
 - Try these confirmed working VSTs:
   - Serum ✅
   - Viper
+  - Diva
   - Vital ✅
   - Surge XT ✅
   - Dexed ✅
