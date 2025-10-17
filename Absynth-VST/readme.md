@@ -286,6 +286,16 @@ Creates a rising C major scale that ends with a long note. Beautiful. 😢
 
 ### Prompt Examples
 
+**Sequences:**
+```
+"Create trance arpeggio in D minor with chord changes."
+"Generate uplifting trance arpeggio in C major"
+"Trance arpeggiated progression in A minor with chord changes"
+"Create trance sequence in F# minor"
+"Generate complex techno sequencer pattern in C minor"
+"Generate complex Trance sequencer pattern in C minor
+```
+
 **Chord Progressions:**
 ```
 "Create a D major chord progression"
