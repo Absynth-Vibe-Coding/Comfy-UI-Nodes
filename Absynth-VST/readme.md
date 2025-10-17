@@ -688,6 +688,7 @@ Cool! Open an issue on GitHub with:
 
 <strong> Known Issues </strong>
 - it can happen that the playback of the audio file in Comfy UI rarely is too fast - but the midi is still usable probably
+Solution that worked for me: Restart Windows...
 ---
 
 <strong>Improvements in version v1.1</strong>
