@@ -68,7 +68,8 @@ Turn it off and on again. Works every time. 🔌
 1. The ComfyUI Workflow is in the folder Workflow
 2. In the VST Player type in your vst3 path like: C:\Program Files\Common Files\VST3\Serum2.vst3
 3. Select a Preset from the list, you can add presets in format .vstpreset <- only these will work
-<img width="457" height="776" alt="image" src="https://github.com/user-attachments/assets/74abc7cf-9440-4d69-8644-eb3966e99fa6" />
+<img width="585" height="801" alt="image" src="https://github.com/user-attachments/assets/2ede6891-ceb8-4bbb-a1ce-c99a89fb1366" />
+
 
 
 4. if you want you can change cutoff...using the parameters midi cc
