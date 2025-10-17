@@ -685,6 +685,9 @@ Cool! Open an issue on GitHub with:
 4. Your VST (so we can test)
 5. A funny joke (optional but appreciated)
 
+
+<strong> Known Issues </strong>
+- it can happen that the playback of the audio file in Comfy UI rarely is too fast - but the midi is still usable probably
 ---
 
 <strong>Improvements in version v1.1</strong>
