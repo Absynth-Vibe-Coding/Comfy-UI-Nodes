@@ -251,7 +251,7 @@ Creates a rising C major scale that ends with a long note. Beautiful. 😢
 **What it does:** Uses AI to generate MIDI. Or just generates good MIDI locally. Either way, you get bangers.
 
 **Inputs:**
-- `prompt` - Describe your musical vision (or "make bleep bloop")
+- `prompt` - Create trance arpeggio in D minor with chord changes.
 - `api_key` - Your API key (if using OpenAI/Anthropic)
 - `_provider` - `local`, `ollama`, `openai`, or `anthropic`
 - `model` - Model name (if using )
@@ -324,9 +324,10 @@ Creates a rising C major scale that ends with a long note. Beautiful. 😢
 "Create a chaotic breakcore pattern in D minor"
 ```
 
-**Pro Example (Try This!):**
+** Example:**
 ```
-"You are a professional music producer. Make an epic pop trance melody with chord progression in E minor."
+Create trance arpeggio in D minor with chord changes..
+Create trance sequence in F# minor
 ```
 This detailed prompt works especially well with LLM providers at temperature 1.2!
 
