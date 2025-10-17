@@ -18,7 +18,6 @@ AI Vibed Coded Nodes for Comfy UI
 - Progressions with rhythmic patterns:
   Extended MIDI chord progressions with rhythm patterns.
 - Voice Leading: Minimal voice movement between chords
-- Common tones are sustained
 - Automatic inversions for smooth transitions
 - Extended Harmonies:
 - Key Detection: The system now recognizes musical keys from the prompt more accurately.
