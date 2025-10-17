@@ -671,6 +671,21 @@ Cool! Open an issue on GitHub with:
 
 ---
 
+<strong>Improvements in version v1.1</strong>
+
+Sequences: Support for generating musical sequences based on harmonic context. Dynamic sequencer system with intelligent rhythm and harmony processing Best suited for Trance, EDM, House, Progressive House/Trance, Techno
+Circle of Fifths (Harmonic Theory) implemented
+Related keys are now derived using the Circle of Fifths.
+Progressions with rhythmic patterns: Extended MIDI chord progressions with rhythm patterns.
+Voice Leading: Minimal voice movement between chords
+Common tones are sustained
+Automatic inversions for smooth transitions
+Extended Harmonies:
+Proper chord extensions and advanced voicings are now supported.
+Key Detection: The system now recognizes musical keys from the prompt more accurately.
+
+
+
 ## 🌟 Final Words
 
 Go forth and make bangers. The AI gods have blessed you with generative MIDI.
