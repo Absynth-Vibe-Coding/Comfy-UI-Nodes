@@ -250,7 +250,8 @@ Creates a rising C major scale that ends with a long note. Beautiful. 😢
 ---
 
 ## 5. Absynth-VST  MIDI Generator
-<img width="432" height="408" alt="image" src="https://github.com/user-attachments/assets/7b8165d9-be21-4eba-a7b7-ee70275a3b0c" />
+<img width="502" height="493" alt="image" src="https://github.com/user-attachments/assets/5886167b-214c-4cb0-a46e-97133806fb8a" />
+
 
 **What it does:** Uses AI to generate MIDI. Or just generates good MIDI locally. Either way, you get bangers.
 
