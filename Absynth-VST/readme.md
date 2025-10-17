@@ -77,7 +77,8 @@ The Coder LLMs follow your prompt better, especially if you prompt for something
 6. **Set temperature to:** `1.2` 
 7. Type in Prompt, see examples
 8. You can also use a MIDI from the list which is in the folder MIDI, add as many as you like
-<img width="698" height="811" alt="image" src="https://github.com/user-attachments/assets/5030da5b-b84f-4e46-891b-3ff909432019" />
+<img width="618" height="798" alt="image" src="https://github.com/user-attachments/assets/c5d98974-b8f6-48ba-872f-b410aca37103" />
+
 
 9. **Click Queue Prompt**
 11. **Receive 🎵 and the MIDI
