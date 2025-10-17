@@ -21,7 +21,6 @@ AI Vibed Coded Nodes for Comfy UI
 - Common tones are sustained
 - Automatic inversions for smooth transitions
 - Extended Harmonies:
-- Proper chord extensions and advanced voicings are now supported.
 - Key Detection: The system now recognizes musical keys from the prompt more accurately.
 
 Full Docu here: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/tree/main/Absynth-VST Enjoy!!
