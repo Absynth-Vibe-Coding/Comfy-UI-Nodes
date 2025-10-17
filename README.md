@@ -3,10 +3,28 @@
 AI Vibed Coded Nodes for Comfy UI
 
 
-<h1>🎹 VST Plugins in ComfyUI</h1>
+<h1>🎹 VST Plugins in ComfyUI - Absynth VST v1.1 released</h1>
 <strong>Turn your VST plugins into ComfyUI nodes and let AI write your bangers. Yes, really.</strong>
 
 <img width="2121" height="757" alt="image" src="https://github.com/user-attachments/assets/0c707457-a414-4924-9a1f-e5f719567c85" />
+
+A lot of improvements and bugfixes in version v1.1
+
+<strong>Improvements</strong>
+
+- Sequences: Support for generating musical sequences based on harmonic context.
+  Dynamic sequencer system with intelligent rhythm and harmony processing
+  Best suited for Trance, EDM, House, Progressive House/Trance, Techno
+- Circle of Fifths (Harmonic Theory) implemented
+- Related keys are now derived using the Circle of Fifths.
+- Progressions with rhythmic patterns:
+  Extended MIDI chord progressions with rhythm patterns.
+- Voice Leading: Minimal voice movement between chords
+- Common tones are sustained
+- Automatic inversions for smooth transitions
+- Extended Harmonies:
+- Proper chord extensions and advanced voicings are now supported.
+- Key Detection: The system now recognizes musical keys from the prompt more accurately.
 
 Full Docu here: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/tree/main/Absynth-VST Enjoy!!
 
