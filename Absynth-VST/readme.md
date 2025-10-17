@@ -293,7 +293,7 @@ Creates a rising C major scale that ends with a long note. Beautiful. 😢
 "Trance arpeggiated progression in A minor with chord changes"
 "Create trance sequence in F# minor"
 "Generate complex techno sequencer pattern in C minor"
-"Generate complex Trance sequencer pattern in C minor
+"Generate Trance sequencer pattern in C minor
 ```
 
 **Chord Progressions:**
