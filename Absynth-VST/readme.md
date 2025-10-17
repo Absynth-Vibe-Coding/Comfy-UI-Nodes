@@ -288,6 +288,7 @@ Creates a rising C major scale that ends with a long note. Beautiful. 😢
 
 **Sequences:**
 ```
+"Melodic trance sequencer pattern in E minor with chord changes and bassline." <- sounds amazing, try this one!
 "Create trance arpeggio in D minor with chord changes."
 "Generate uplifting trance arpeggio in C major"
 "Trance arpeggiated progression in A minor with chord changes"
