@@ -693,12 +693,12 @@ Solution that worked for me: For now Switch to gpt-oss:20b and regenerate <- try
 
 
 
-Bugfixes and improvements in version v1.1.1
+<strong>Bugfixes and improvements in version v1.1.1</strong>
 
--Fixed bug when the created midi was messed up and played too fast in comfy
--LLM Midi Generator: is now a dropdown and your LLMs from Ollama are automaticly detected
--VST Player: added BPM Override if you want to change the tempo in the player
--The Midi Files are now saved with key and bpm info in the name
+-Fixed bug when the created midi was messed up and played too fast in comfy<br>
+-LLM Midi Generator: is now a dropdown and your LLMs from Ollama are automaticly detected<br>
+-VST Player: added BPM Override if you want to change the tempo in the player<br>
+-The Midi Files are now saved with key and bpm info in the name<br>
 
 
 <strong>Improvements in version v1.1</strong>
