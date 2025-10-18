@@ -96,7 +96,8 @@ The Coder LLMs follow your prompt better, especially if you prompt for something
 ### 1. Absynth-VST Player 🎹
 **What it does:** Loads your expensive VST plugins and makes them work in ComfyUI.
 
-<img width="438" height="774" alt="image" src="https://github.com/user-attachments/assets/1cea1cd3-fa6b-4374-9040-e6a94692c171" />
+<img width="372" height="795" alt="image" src="https://github.com/user-attachments/assets/adf4843f-df3b-4389-be5c-95ba71279b57" />
+
 
 
 **Inputs:**
