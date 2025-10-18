@@ -68,7 +68,8 @@ Turn it off and on again. Works every time. 🔌
 1. The ComfyUI Workflow is in the folder Workflow
 2. In the VST Player type in your vst3 path like: C:\Program Files\Common Files\VST3\Serum2.vst3
 3. Select a Preset from the list, you can add presets in format .vstpreset <- only these will work
-<img width="585" height="801" alt="image" src="https://github.com/user-attachments/assets/2ede6891-ceb8-4bbb-a1ce-c99a89fb1366" />
+<img width="508" height="814" alt="image" src="https://github.com/user-attachments/assets/cd688fd0-a96f-4715-bc24-6e2de5398d17" />
+
 
 
 
@@ -78,7 +79,8 @@ The Coder LLMs follow your prompt better, especially if you prompt for something
 6. **Set temperature to:** `1.2` 
 7. Type in Prompt, see examples
 8. You can also use a MIDI from the list which is in the folder MIDI, add as many as you like
-<img width="618" height="798" alt="image" src="https://github.com/user-attachments/assets/c5d98974-b8f6-48ba-872f-b410aca37103" />
+<img width="606" height="824" alt="image" src="https://github.com/user-attachments/assets/68e23c68-571b-43de-9cff-70f85f2af2d0" />
+
 
 
 9. **Click Queue Prompt**
