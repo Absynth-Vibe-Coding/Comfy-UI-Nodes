@@ -8,6 +8,14 @@ AI Vibed Coded Nodes for Comfy UI
 
 <img width="2207" height="873" alt="image" src="https://github.com/user-attachments/assets/0a647bb6-7bc3-4960-b523-c1c805cea5a5" />
 
+<strong>Bugfixes and improvements in version v1.1.1</strong>
+
+-Fixed bug when the created midi was messed up and played too fast in comfy
+-LLM Midi Generator: is now a dropdown and your LLMs from Ollama are automaticly detected
+-VST Player: added BPM Override if you want to change the tempo in the player
+-The Midi Files are now saved with key and bpm info in the name
+
+
 <strong>Improvements in version v1.1</strong>
 
 - Sequences: Support for generating musical sequences based on harmonic context.
