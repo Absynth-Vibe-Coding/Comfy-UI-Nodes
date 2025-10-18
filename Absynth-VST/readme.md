@@ -675,11 +675,6 @@ Use ComfyUI's batch mode to generate 100 variations:
 
 ---
 
-## 📝 License
-
-Check the LICENSE file. It's probably MIT or something equally permissive.
-
----
 
 ## 🐛 Found a Bug?
 
