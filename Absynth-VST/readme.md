@@ -1,7 +1,8 @@
 <h1>🎹 VST Plugins in ComfyUI</h1>
 <strong>Turn your VST plugins into ComfyUI nodes and let AI write your bangers. Yes, really.</strong>
 
-<img width="2121" height="757" alt="image" src="https://github.com/user-attachments/assets/0c707457-a414-4924-9a1f-e5f719567c85" />
+<img width="2411" height="909" alt="image" src="https://github.com/user-attachments/assets/89c7605b-6419-4208-9db6-0577e6761e4c" />
+
 
 ## 📖 Table of Contents
 
