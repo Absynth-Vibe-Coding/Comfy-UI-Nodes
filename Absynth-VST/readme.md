@@ -463,6 +463,9 @@ Quality: Excellent
 7. In the node select Serum 2 and select your Drumkit Preset
 8. Let the Drums roll and enjoy!
 
+Prompts for Drums
+Watch my Video: https://www.youtube.com/watch?v=1aKlRxVkuxY + See Prompt Examples in the Workflows you can create simple drum loops or even drum sequences!
+
 
 ## Tips and Tricks
 
