@@ -457,7 +457,7 @@ Quality: Excellent
 1. Use Sample Robot 
 2. Use the Table in the Workflow to put your Samples on the Keyboard where they should be
 3. Export Drumkit in Sample Robot as .sfz
-4. Import Drumkit in Serum2 .sfz
+4. Import Drumkit in Serum2 into Wavetable as .sfz
 5. Save Serum 2 Preset in Cubase... as .vstpreset
 6. Put the .vstpreset in the absynth-vst node folder Presets like the synth presets.
 7. In the node select Serum 2 and select your Drumkit Preset
