@@ -12,6 +12,7 @@
 - [Quick Start](#quick-start)
 - [The Nodes](#the-nodes)
 - [LLM MIDI Generator - Still experimental - bigger LLM more chance for better result ](#llm-midi-generator)
+- Absynth Mixer: Mix leads, bass, pads, drums..together and adjust volume
 - [Tips and Tricks](#tips-and-tricks)
 - [Troubleshooting](#troubleshooting)
 - [FAQ](#faq)
@@ -435,6 +436,17 @@ Quality: Excellent
 4. Enjoy Claude's musical creativity
 
 ---
+
+<h2>Absynth Mixer</h2>
+
+<img width="492" height="798" alt="image" src="https://github.com/user-attachments/assets/8d7f060a-66a5-4a43-8a81-5669dca9a4e4" />
+
+- 4 Audio Inputs (can be any)
+- 4 individual Audio Outputs
+- Mixer Output
+- Track Volume
+- Track Panning left/right
+- Set Name of Track
 
 ## Tips and Tricks
 
