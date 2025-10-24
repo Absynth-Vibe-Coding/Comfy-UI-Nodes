@@ -13,6 +13,7 @@
 - [The Nodes](#the-nodes)
 - [LLM MIDI Generator - Still experimental - bigger LLM more chance for better result ](#llm-midi-generator)
 - Absynth Mixer: Mix leads, bass, pads, drums..together and adjust volume
+- Drums...but how?
 - [Tips and Tricks](#tips-and-tricks)
 - [Troubleshooting](#troubleshooting)
 - [FAQ](#faq)
@@ -447,6 +448,21 @@ Quality: Excellent
 - Track Volume
 - Track Panning left/right
 - Set Name of Track
+
+
+<h2>Drums...but how?</h2>
+
+<img width="775" height="765" alt="image" src="https://github.com/user-attachments/assets/20f6059a-af65-4a63-b83d-6be36bc4fed4" />
+
+1. Use Sample Robot and save Kit as .sfz
+2. Use the Table in the Workflow to put your Samples on the Keyboard where they should be
+3. Export Drumkit in Sample Robot as .sfz
+4. Import Drumkit in Serum2 .sfz
+5. Save Serum 2 Preset in Cubase... as .vstpreset
+6. Put the .vstpreset in the my node folder Presets like the synth presets.
+7. In the node select Serum 2 and selct your Drumkit Preset
+8. Let the Drums roll and enjoy!
+
 
 ## Tips and Tricks
 
