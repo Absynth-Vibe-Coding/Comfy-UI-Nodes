@@ -459,7 +459,7 @@ Quality: Excellent
 3. Export Drumkit in Sample Robot as .sfz
 4. Import Drumkit in Serum2 .sfz
 5. Save Serum 2 Preset in Cubase... as .vstpreset
-6. Put the .vstpreset in the my node folder Presets like the synth presets.
+6. Put the .vstpreset in the absynth-vst node folder Presets like the synth presets.
 7. In the node select Serum 2 and select your Drumkit Preset
 8. Let the Drums roll and enjoy!
 
