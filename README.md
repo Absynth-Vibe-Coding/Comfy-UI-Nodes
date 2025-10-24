@@ -11,7 +11,7 @@ AI Vibed Coded Nodes for Comfy UI
 
 <H2>Absynth VST 1.2 is here!</H2> 
 <strong>Drum-Roll please...Now you can generate real working MIDI for your DAW, Cubase, Ableton, Logic...for Synths + DRUMS using your favorite LLM</strong>
-<br>
+<br><br>
 This is quite a big update with lots of improvements and also a brandnew Audio Mixer for ComfyUI with 4 tracks to make a basic track and 2 new Workflows.
 
 You can now generate also Midi-Drums for Trance, House, Techno, Electro, HipHop (improvements for genres on new updates)
