@@ -454,7 +454,7 @@ Quality: Excellent
 
 <img width="775" height="765" alt="image" src="https://github.com/user-attachments/assets/20f6059a-af65-4a63-b83d-6be36bc4fed4" />
 
-1. Use Sample Robot and save Kit as .sfz
+1. Use Sample Robot 
 2. Use the Table in the Workflow to put your Samples on the Keyboard where they should be
 3. Export Drumkit in Sample Robot as .sfz
 4. Import Drumkit in Serum2 .sfz
