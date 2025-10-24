@@ -20,7 +20,7 @@ Watch the 1.2 Video on my YouTube Channel & Subscribe if you like ;-) https://ww
 
 Full Docu here: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/tree/main/Absynth-VST 
 
-=================================================================================================
+=============================================================================
 
 
 <strong>Bugfixes and improvements in version v1.1.1</strong>
