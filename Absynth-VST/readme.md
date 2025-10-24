@@ -460,7 +460,7 @@ Quality: Excellent
 4. Import Drumkit in Serum2 .sfz
 5. Save Serum 2 Preset in Cubase... as .vstpreset
 6. Put the .vstpreset in the my node folder Presets like the synth presets.
-7. In the node select Serum 2 and selct your Drumkit Preset
+7. In the node select Serum 2 and select your Drumkit Preset
 8. Let the Drums roll and enjoy!
 
 
