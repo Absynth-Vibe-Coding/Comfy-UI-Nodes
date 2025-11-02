@@ -6,10 +6,20 @@ AI Vibed Coded Nodes for Comfy UI
 <h1>🎹 VST Plugins in ComfyUI - Absynth VST released</h1>
 <strong>Turn your VST plugins into ComfyUI nodes and let AI write your bangers. Yes, really.</strong>
 
-<img width="2554" height="895" alt="image" src="https://github.com/user-attachments/assets/7b8485fa-1965-4a77-9090-52baa4eb8e42" />
+<img width="2061" height="726" alt="image" src="https://github.com/user-attachments/assets/3204bf39-ef36-49e9-a7e5-c605d06f2ac9" />
 
 
-<H2>Absynth VST 1.2 is here!</H2> 
+<H2>Absynth VST 1.2.5 is here!</H2>
+In this Update i made a lot of improvements to the MIDI LLM Engine, which shoul give you even better and more different results.
+- 2 New Workdlfows for 1.2.5 using my new LLM Status Display, so you dont have to look in the console anymore
+- New Waveform Node that displays your Audio very nicely and you can select parts of the node, loop and save it.
+
+Full Docu here: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/tree/main/Absynth-VST 
+
+
+----------------------------------------------------------------------------
+
+Absynth VST 1.2 is here! 
 <strong>Drum-Roll please...Now you can generate real working MIDI for your DAW, Cubase, Ableton, Logic...for Synths + DRUMS using your favorite LLM</strong>
 <br><br>
 This is quite a big update with lots of improvements and also a brandnew Audio Mixer for ComfyUI with 4 tracks to make a basic track and 2 new Workflows.
@@ -18,7 +28,6 @@ You can now generate also Midi-Drums for Trance, House, Techno, Electro, HipHop 
 
 Watch the 1.2 Video on my YouTube Channel & Subscribe if you like ;-) <br>https://www.youtube.com/watch?v=1aKlRxVkuxY 
 
-Full Docu here: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/tree/main/Absynth-VST 
 
 ===========================================================================
 
