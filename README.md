@@ -14,7 +14,7 @@ In this Update i made a lot of improvements to the MIDI LLM Engine, which should
 - 2 New Workflows for 1.2.5 using my new LLM Status Display, so you dont have to look in the console anymore <br>
 - New Waveform Node that displays your Audio very nicely and you can select parts of the node, loop and save it. <br>
 <br>
-Watch the Video here: https://www.youtube.com/watch?v=UgYhJi4wWcE <br>
+Watch the Video here and subscribe to my YouTube Channel: https://www.youtube.com/watch?v=UgYhJi4wWcE <br>
 Full Docu here: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/tree/main/Absynth-VST 
 
 
