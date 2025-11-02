@@ -479,7 +479,7 @@ A node that shows how great your Audio Waveform looks ;-)
 -Save Audio
 
 <h2>Absynth LLM Status Display</h2>
-A node that shows you if LLM MIDI generation was successfull or if it failed, and it looks great ;-)
+A node that shows you if LLM MIDI generation was successful or if it failed, and it looks great ;-)
 
 <img width="1117" height="668" alt="image" src="https://github.com/user-attachments/assets/49389d84-9c1c-4ef0-82a5-088883369023"/>
 
