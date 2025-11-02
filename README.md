@@ -10,7 +10,7 @@ AI Vibed Coded Nodes for Comfy UI
 
 
 <H2>Absynth VST 1.2.5 is here!</H2>
-In this Update i made a lot of improvements to the MIDI LLM Engine, which shoul give you even better and more different results.<br><br>
+In this Update i made a lot of improvements to the MIDI LLM Engine, which should give you even better and more different results.<br><br>
 - 2 New Workflows for 1.2.5 using my new LLM Status Display, so you dont have to look in the console anymore <br>
 - New Waveform Node that displays your Audio very nicely and you can select parts of the node, loop and save it. <br>
 <br>
