@@ -15,6 +15,8 @@
 - [LLM MIDI Generator - Still experimental - bigger LLM more chance for better result ](#llm-midi-generator)
 - Absynth Mixer: Mix leads, bass, pads, drums..together and adjust volume
 - Drums...but how?
+- Absynth Audio Preview: Listen, Loop and Save Audio with nice Waveform
+- LLM Status Display: shows LLM Success or Fail
 - [Tips and Tricks](#tips-and-tricks)
 - [Troubleshooting](#troubleshooting)
 - [FAQ](#faq)
@@ -451,7 +453,7 @@ Quality: Excellent
 - Set Name of Track
 
 
-<h2>Drums...but how?</h2>
+<h2>...but how?</h2>
 
 <img width="775" height="765" alt="image" src="https://github.com/user-attachments/assets/20f6059a-af65-4a63-b83d-6be36bc4fed4" />
 
@@ -466,6 +468,21 @@ Quality: Excellent
 
 Prompts for Drums
 Watch my Video: https://www.youtube.com/watch?v=1aKlRxVkuxY + See Prompt Examples in the Workflows you can create simple drum loops or even drum sequences!
+
+<h2>Absynth Audio Preview</h2>
+A node that shows how great your Audio Waveform looks ;-)
+
+<img width="1106" height="699" alt="image" src="https://github.com/user-attachments/assets/814542af-f38c-4f60-a92c-ef8f2391e987"/>
+
+-Play Audio
+-Select Audiopart and loop it
+-Save Audio
+
+<h2>Absynth LLM Status Display</h2>
+A node that shows you if LLM MIDI generation was successfull or if it failed, and it looks great ;-)
+
+<img width="1117" height="668" alt="image" src="https://github.com/user-attachments/assets/49389d84-9c1c-4ef0-82a5-088883369023"/>
+
 
 
 ## Tips and Tricks
