@@ -474,9 +474,9 @@ A node that shows how great your Audio Waveform looks ;-)
 
 <img width="1106" height="699" alt="image" src="https://github.com/user-attachments/assets/814542af-f38c-4f60-a92c-ef8f2391e987"/>
 
--Play Audio
--Select Audiopart and loop it
--Save Audio
+-Play Audio <br>
+-Select Audiopart and loop it<br>
+-Save Audio<br>
 
 <h2>Absynth LLM Status Display</h2>
 A node that shows you if LLM MIDI generation was successful or if it failed, and it looks great ;-)
