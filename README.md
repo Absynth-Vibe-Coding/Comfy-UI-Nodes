@@ -14,7 +14,7 @@ This is a huge update and also kind of groundbreaking to be honest since now you
 
 - Let the LLM make your PRESETS, right now only Serum 2 Presets (more to come :-)
 - See and Control your VST Plugin now in ComfyUI as a popop and use this for your generation!
-- VST Lit: Scans your VST3 Folder and gives you all VSTS in a dropdown to select and use
+- VST List: Scans your VST3 Folder and gives you all VSTS in a dropdown to select and use
 - Local Cache System that prevents repetetive MIDI Generation <- tells the LLM what it did before and should make different MIDI everytime
 
 Watch the full video here and Subscribe to my YouTube channel if you like this, thx!
