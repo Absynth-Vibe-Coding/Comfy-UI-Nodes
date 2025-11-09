@@ -495,26 +495,26 @@ A node that shows you if LLM MIDI generation was successful or if it failed, and
 <H2>VST EDITOR <- See and control your VST in ComfyUI</H2>
 
 <img width="1900" height="806" alt="image" src="https://github.com/user-attachments/assets/bc02bb23-f431-4a03-86ba-7135c308aa33" />
- 1. Set capture parameters to true in the VST Editor
- 2. Select Plugin
- 3. Run the workflow which is included in the folder
- 4. Your VST Plugin popsup in front of you!
- 5. Select your Preset
- 6. Twist some knobs
- 7. Close the VST Popup
- 8. Your Workflow continues and passed the captured data incl. preset to the player
+ 1. Set capture parameters to true in the VST Editor<br>
+ 2. Select Plugin<br>
+ 3. Run the workflow which is included in the folder<br>
+ 4. Your VST Plugin popsup in front of you!<br>
+ 5. Select your Preset<br>
+ 6. Twist some knobs<br>
+ 7. Close the VST Popup<br>
+ 8. Your Workflow continues and passed the captured data incl. preset to the player<br>
 
-
+<br>
 IMPORTANT: Not all Plugins will work perfectly with this, there is a LOT of testing involved and would need additional coding to make all of them work as expected, which is not possible, there are millions of plugins available.
-
+<br>
 What works very well:
-- SERUM 2 incl. Presetmaker
-- VIPER
-- DIVA
-- DUNE
-
+- SERUM 2 incl. Presetmaker<br>
+- VIPER<br>
+- DIVA<br>
+- DUNE<br>
+<br>
 Dont use Spire right now, it will crash comfy, others just test and expirement!
-
+<br>
 
 <h2>VST LIST</h2>
 - it scans your VST3 folder and gives you a dropdown to select your plugin
@@ -525,40 +525,40 @@ Dont use Spire right now, it will crash comfy, others just test and expirement!
 Oh yes!! The LLM can now make Serum 2 Presets for you incl. effects like reverb and delay...
 <img width="1999" height="729" alt="image" src="https://github.com/user-attachments/assets/6dd3e14d-03c8-492c-8ab5-094c16b29024" />
 
-1. Select Plugin from Dropdown List <- right now only Serum 2 will work (more to come :-)
-2. Select your LLM, deepseek v3.1:671B Cloud is incredible and can do it (its even free for a long time)
-3. Prompt like: make an epic trance pluck with reverb
-3. Run the Workflow
-4. It creates you a .vstpreset that works in Serum 2!
-5. it saves the preset automaticly in the vst3 folder of Serum 2 and also in the folder of my node
-
-I use Cubase for producing Music, so this is how it works now, i am not planning to do any further DAW optimizations.
-VST3 is a huge standard, so it should work with any DAW basifly that supports .vstpreset format.
+1. Select Plugin from Dropdown List <- right now only Serum 2 will work (more to come :-)<br>
+2. Select your LLM, deepseek v3.1:671B Cloud is incredible and can do it (its even free for a long time)<br>
+3. Prompt like: make an epic trance pluck with reverb<br>
+3. Run the Workflow<br>
+4. It creates you a .vstpreset that works in Serum 2!<br>
+5. it saves the preset automaticly in the vst3 folder of Serum 2 and also in the folder of my node<br>
+<br>
+I use Cubase for producing Music, so this is how it works now, i am not planning to do any further DAW optimizations.<br>
+VST3 is a huge standard, so it should work with any DAW basifly that supports .vstpreset format.<br>
 
 
 <h2>LLM Local Caching</h2>
 
-We now have cache which prevents repetetive MIDI generation!
-The cache tells the LLM what it did before and so it should always generate new MIDI.
+We now have cache which prevents repetetive MIDI generation!<br>
+The cache tells the LLM what it did before and so it should always generate new MIDI.<br>
 
-Threshold = 0.7 (Recommended - High Diversity)
-  - Rejects anything >70% similar
-  - Forces very different melodies
-  - Good for creative variety
+Threshold = 0.7 (Recommended - High Diversity)<br>
+  - Rejects anything >70% similar<br>
+  - Forces very different melodies<br>
+  - Good for creative variety<br>
+<br>
+  Threshold = 0.85 (Moderate)<br>
+  - Allows more similarity<br>
+  - Still prevents duplicates<br>
+  - Good for variations on a theme<br>
+<br>
+  Threshold = 0.5 (Strict)<br>
+  - Rejects anything >50% similar<br>
+  - VERY different melodies every time<br>
+  - Might retry a lot<br>
 
-  Threshold = 0.85 (Moderate)
-  - Allows more similarity
-  - Still prevents duplicates
-  - Good for variations on a theme
-
-  Threshold = 0.5 (Strict)
-  - Rejects anything >50% similar
-  - VERY different melodies every time
-  - Might retry a lot
 
 
-
-## Tips and Tricks
+## Tips and Tricks<br>
 
 ### Golden Workflows
 
