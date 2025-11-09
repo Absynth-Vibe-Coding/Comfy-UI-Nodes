@@ -12,14 +12,14 @@ AI Vibed Coded Nodes for Comfy UI
 <H2>Absynth VST 1.3 is here!</H2>
 This is a huge update and also kind of groundbreaking to be honest since now you can: <br>
 <br>
-- Let the LLM make your PRESETS, right now only Serum 2 Presets (more to come :-)
-- See and Control your VST Plugin now in ComfyUI as a popop and use this for your generation!
-- VST List: Scans your VST3 Folder and gives you all VSTS in a dropdown to select and use
-- Local Cache System that prevents repetetive MIDI Generation <- tells the LLM what it did before and should make different MIDI everytime
-
-Watch the full video here and Subscribe to my YouTube channel if you like this, thx!
+- Let the LLM make your PRESETS, right now only Serum 2 Presets (more to come :-) <br>
+- See and Control your VST Plugin now in ComfyUI as a popop and use this for your generation! <br>
+- VST List: Scans your VST3 Folder and gives you all VSTS in a dropdown to select and use <br>
+- Local Cache System that prevents repetetive MIDI Generation <- tells the LLM what it did before and should make different MIDI everytime <br>
+<br>
+Watch the full video here and Subscribe to my YouTube channel if you like this, thx! <br>
 https://www.youtube.com/watch?v=f1NiZrvkyaA
-
+<br>
 Full Docu here: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/tree/main/Absynth-VST
 
 
