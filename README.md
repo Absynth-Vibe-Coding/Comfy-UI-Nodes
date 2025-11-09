@@ -11,7 +11,7 @@ AI Vibed Coded Nodes for Comfy UI
 
 <H2>Absynth VST 1.3 is here!</H2>
 This is a huge update and also kind of groundbreaking to be honest since now you can: <br>
-
+<br>
 - Let the LLM make your PRESETS, right now only Serum 2 Presets (more to come :-)
 - See and Control your VST Plugin now in ComfyUI as a popop and use this for your generation!
 - VST List: Scans your VST3 Folder and gives you all VSTS in a dropdown to select and use
