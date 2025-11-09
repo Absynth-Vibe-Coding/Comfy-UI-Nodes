@@ -20,6 +20,8 @@ This is a huge update and also kind of groundbreaking to be honest since now you
 Watch the full video here and Subscribe to my YouTube channel if you like this, thx!
 https://www.youtube.com/watch?v=f1NiZrvkyaA
 
+Full Docu here: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/tree/main/Absynth-VST
+
 
 ------------------------------------------------------------------------------
 
