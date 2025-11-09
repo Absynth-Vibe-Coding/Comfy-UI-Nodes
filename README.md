@@ -17,6 +17,9 @@ This is a huge update and also kind of groundbreaking to be honest since now you
 - VST Lit: Scans your VST3 Folder and gives you all VSTS in a dropdown to select and use
 - Local Cache System that prevents repetetive MIDI Generation <- tells the LLM what it did before and should make different MIDI everytime
 
+Watch the full video here and Subscribe to my YouTube channel if you like this, thx!
+https://www.youtube.com/watch?v=f1NiZrvkyaA
+
 
 ------------------------------------------------------------------------------
 
