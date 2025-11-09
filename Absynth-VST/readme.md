@@ -15,6 +15,10 @@
 - [LLM MIDI Generator - Still experimental - bigger LLM more chance for better result ](#llm-midi-generator)
 - Absynth Mixer: Mix leads, bass, pads, drums..together and adjust volume
 - Drums...but how?
+- VST Editor <- now you can see and edit your VST Plugin in Comfy!
+- VST List <- it scans your VST3 Folder and gives you a dropdown with all your VST3 Plugins
+- ABSYNTH Preset Maker <- YES!! you read this right, the LLM can generate your Presets incl. Effects, currently only Serum 2 (more to come)
+- LLM Cache <- Local Caching for your Prompts, tells the LLM what it did before and will always do different results
 - Absynth Audio Preview: Listen, Loop and Save Audio with nice Waveform
 - LLM Status Display: shows LLM Success or Fail
 - [Tips and Tricks](#tips-and-tricks)
@@ -484,6 +488,72 @@ A node that shows how great your Audio Waveform looks ;-)
 A node that shows you if LLM MIDI generation was successful or if it failed, and it looks great ;-)
 
 <img width="1117" height="668" alt="image" src="https://github.com/user-attachments/assets/49389d84-9c1c-4ef0-82a5-088883369023"/>
+
+
+
+<H2>VST EDITOR <- See and control your VST in ComfyUI</H2>
+
+<img width="1900" height="806" alt="image" src="https://github.com/user-attachments/assets/bc02bb23-f431-4a03-86ba-7135c308aa33" />
+ 1. Set capture parameters to true in the VST Editor
+ 2. Select Plugin
+ 3. Run the workflow which is included in the folder
+ 4. Your VST Plugin popsup in front of you!
+ 5. Select your Preset
+ 6. Twist some knobs
+ 7. Close the VST Popup
+ 8. Your Workflow continues and passed the captured data incl. preset to the player
+
+
+IMPORTANT: Not all Plugins will work perfectly with this, there is a LOT of testing involved and would need additional coding to make all of them work as expected, which is not possible, there are millions of plugins available.
+
+What works very well:
+- SERUM 2 incl. Presetmaker
+- VIPER
+- DIVA
+- DUNE
+
+Dont use Spire right now, it will crash comfy, others just test and expirement!
+
+
+<h2>VST LIST</h2>
+- it scans your VST3 folder and gives you a dropdown to select your plugin
+<img width="756" height="836" alt="image" src="https://github.com/user-attachments/assets/e1cfdbad-0485-4737-8469-069293c0c174" />
+
+
+<h2>ABSYNTH PRESET MAKER</h2>
+Oh yes!! The LLM can now make Serum 2 Presets for you incl. effects like reverb and delay...
+<img width="1999" height="729" alt="image" src="https://github.com/user-attachments/assets/6dd3e14d-03c8-492c-8ab5-094c16b29024" />
+
+1. Select Plugin from Dropdown List <- right now only Serum 2 will work (more to come :-)
+2. Select your LLM, deepseek v3.1:671B Cloud is incredible and can do it (its even free for a long time)
+3. Prompt like: make an epic trance pluck with reverb
+3. Run the Workflow
+4. It creates you a .vstpreset that works in Serum 2!
+5. it saves the preset automaticly in the vst3 folder of Serum 2 and also in the folder of my node
+
+I use Cubase for producing Music, so this is how it works now, i am not planning to do any further DAW optimizations.
+VST3 is a huge standard, so it should work with any DAW basifly that supports .vstpreset format.
+
+
+<h2>LLM Local Caching</h2>
+
+We now have cache which prevents repetetive MIDI generation!
+The cache tells the LLM what it did before and so it should always generate new MIDI.
+
+Threshold = 0.7 (Recommended - High Diversity)
+  - Rejects anything >70% similar
+  - Forces very different melodies
+  - Good for creative variety
+
+  Threshold = 0.85 (Moderate)
+  - Allows more similarity
+  - Still prevents duplicates
+  - Good for variations on a theme
+
+  Threshold = 0.5 (Strict)
+  - Rejects anything >50% similar
+  - VERY different melodies every time
+  - Might retry a lot
 
 
 
