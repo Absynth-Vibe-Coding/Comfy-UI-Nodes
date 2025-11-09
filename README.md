@@ -6,7 +6,8 @@ AI Vibed Coded Nodes for Comfy UI
 <h1>🎹 VST Plugins in ComfyUI - Absynth VST released</h1>
 <strong>Turn your VST plugins into ComfyUI nodes and let AI write your bangers + PRESETS. Yes, really.</strong>
 
-<img width="2125" height="918" alt="image" src="https://github.com/user-attachments/assets/5e580e7f-58a8-49e3-987c-5191cd26800a" />
+<img width="1280" height="720" alt="absynth-vst-1 3" src="https://github.com/user-attachments/assets/986273e8-a3cf-4d24-9be1-0718556a77a2" />
+
 
 
 <H2>Absynth VST 1.3 is here!</H2>
