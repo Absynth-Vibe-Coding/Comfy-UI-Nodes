@@ -8,7 +8,19 @@ AI Vibed Coded Nodes for Comfy UI
 
 <img width="1280" height="720" alt="absynth-vst-1 3" src="https://github.com/user-attachments/assets/986273e8-a3cf-4d24-9be1-0718556a77a2" />
 
+<H2>Absynth VST 1.3.1 is here!</H2>
+Improved the Preset Maker for Serum 2 <br>
+<br>
+- The LLM can now create Serum 2 Sequences in the Preset using the LFO!<br>
+- The LLM can now create Apreggiator Presets in Serum 2!<br>
+- The LLM can now add all the effects you prompt in your preset for Serum 2!<br>
+- Huge Prompt Guide in the new Workflow <br>
 
+<br>
+Full Docu here: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/tree/main/Absynth-VST
+
+
+------------------------------------------------------------------------------
 
 <H2>Absynth VST 1.3 is here!</H2>
 This is a huge update and also kind of groundbreaking to be honest since now you can: <br>
