@@ -535,7 +535,13 @@ Oh yes!! The LLM can now make Serum 2 Presets for you incl. effects like reverb 
 I use Cubase for producing Music, so this is how it works now, i am not planning to do any further DAW optimizations.<br>
 VST3 is a huge standard, so it should work with any DAW basifly that supports .vstpreset format.<br>
 
+Right now you can Generate:<br> 
+- Leads, plucks, pads, bass <br>
+- Sequences using LFO <br>
+- Arpeggiator including 8th, 16th, chords, directions like up, down, convergence... <br>
+- Add effects like reverb, delay, compressor, chorus...to your Serum 2 Preset! <br>
 
+  
 <h2>LLM Local Caching</h2>
 
 We now have cache which prevents repetetive MIDI generation!<br>
