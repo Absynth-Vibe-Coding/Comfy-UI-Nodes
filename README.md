@@ -12,7 +12,7 @@ AI Vibed Coded Nodes for Comfy UI
 Improved the Preset Maker for Serum 2 <br>
 <br>
 - The LLM can now create Serum 2 Sequences in the Preset using the LFO!<br>
-- The LLM can now create Apreggiator Presets in Serum 2!<br>
+- The LLM can now create Arpeggiator Presets in Serum 2!<br>
 - The LLM can now add all the effects you prompt in your preset for Serum 2!<br>
 - Huge Prompt Guide in the new Workflow <br>
 
