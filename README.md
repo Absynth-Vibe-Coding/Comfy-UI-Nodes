@@ -17,8 +17,8 @@ Improved the Preset Maker for Serum 2 <br>
 - Huge Prompt Guide in the new Workflow <br>
 
 <br>
-Full Docu here: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/tree/main/Absynth-VST
-
+Full Docu here: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/tree/main/Absynth-VST <br>
+Watch the full video here and subscribe to my YouTube channel, thx! https://www.youtube.com/watch?v=kaCOiCbT59Y
 
 ------------------------------------------------------------------------------
 
