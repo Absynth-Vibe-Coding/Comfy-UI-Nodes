@@ -547,10 +547,12 @@ Right now you can Generate:<br>
 <img width="567" height="423" alt="image" src="https://github.com/user-attachments/assets/4e44aa45-6b81-486d-ae31-44a0884cd609" /><br>
 Yes! It really analyzs your Midi-files and detects the right chords and scales, also timing, bars, tempo<br>
 
+<img width="530" height="564" alt="image" src="https://github.com/user-attachments/assets/c57a72c6-cbe1-4554-bd37-ae18bd85d826" />
+<br>
 1. Click browse Midi File
 2. Select your Midi
 3. The node analyzes the File when you click Run
-
+<br><br>
 <h2>Absynth LLM Midi Loop Generator</h2>
   <img width="583" height="711" alt="image" src="https://github.com/user-attachments/assets/e79e9c5d-5f60-433b-87b3-47cc3299504d" /><br>
 Yes! it gets the analyzed Midi information from the analyzer and generates the right leads, bass, pads, arps and riffs to your chords and scale!
