@@ -544,7 +544,7 @@ Right now you can Generate:<br>
 - Add effects like reverb, delay, compressor, chorus...to your Serum 2 Preset! <br>
 
 <h2>Absynth MIDI Analyzer</h2>
-<img width="567" height="423" alt="image" src="https://github.com/user-attachments/assets/4e44aa45-6b81-486d-ae31-44a0884cd609" />
+<img width="567" height="423" alt="image" src="https://github.com/user-attachments/assets/4e44aa45-6b81-486d-ae31-44a0884cd609" /><br>
 Yes! It really analyzs your Midi-files and detects the right chords and scales, also timing, bars, tempo<br>
 
 1. Click browse Midi File
@@ -552,7 +552,7 @@ Yes! It really analyzs your Midi-files and detects the right chords and scales, 
 3. The node analyzes the File when you click Run
 
 <h2>Absynth LLM Midi Loop Generator</h2>
-  <img width="583" height="711" alt="image" src="https://github.com/user-attachments/assets/e79e9c5d-5f60-433b-87b3-47cc3299504d" />
+  <img width="583" height="711" alt="image" src="https://github.com/user-attachments/assets/e79e9c5d-5f60-433b-87b3-47cc3299504d" /><br>
 Yes! it gets the analyzed Midi information from the analyzer and generates the right leads, bass, pads, arps and riffs to your chords and scale!
 
 1. Pick LLM or Local, both work
