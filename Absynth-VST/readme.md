@@ -549,9 +549,9 @@ Yes! It really analyzs your Midi-files and detects the right chords and scales, 
 
 <img width="530" height="564" alt="image" src="https://github.com/user-attachments/assets/c57a72c6-cbe1-4554-bd37-ae18bd85d826" />
 <br>
-1. Click browse Midi File
-2. Select your Midi
-3. The node analyzes the File when you click Run
+1. Click browse Midi File<br>
+2. Select your Midi<br>
+3. The node analyzes the File when you click Run<br>
 <br><br>
 <h2>Absynth LLM Midi Loop Generator</h2>
   <img width="583" height="711" alt="image" src="https://github.com/user-attachments/assets/e79e9c5d-5f60-433b-87b3-47cc3299504d" /><br>
