@@ -7,6 +7,18 @@ AI Vibed Coded Nodes for Comfy UI
 <strong>Turn your VST plugins into ComfyUI nodes and let AI write your bangers + PRESETS. Yes, really.</strong>
 
 <img width="1280" height="720" alt="absynth-vst-1 3" src="https://github.com/user-attachments/assets/986273e8-a3cf-4d24-9be1-0718556a77a2" />
+<br
+
+<H2>Absynth VST 1.3.3 is here!</H2><br>
+This update is my favorite so far, since its really useful for music producing!
+
+- Added Midi Analyzer: Yes! It scans your Midi and detects chords and scales and passes it to the LLM Midi Looper<br>
+- LLM Midi Looper: It creates Leads, Basslines, Pads, Arps, Chord Riffs...that fits to your chords :-) <br>
+
+Full Docu here: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/tree/main/Absynth-VST
+
+
+------------------------------------------------------------------------------
 
 <H2>Absynth VST 1.3.1 is here!</H2>
 Improved the Preset Maker for Serum 2 <br>
