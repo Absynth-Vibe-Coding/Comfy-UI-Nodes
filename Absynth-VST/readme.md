@@ -561,7 +561,9 @@ Yes! it gets the analyzed Midi information from the analyzer and generates the r
 2. For LLM also set Temperature -> see included comfy workflow for documentation
 3. Set Note Density -> sets the amound of notes basicly
 4. Prompt create a trance chord riff...(prompt examples see workflow)
-5. Yes! It generates Midi that rally fits to your chords it has detected :-)
+5. Yes! It generates Midi that really fits to your chords it has detected :-)
+
+<br><br><br>
   
 <h2>LLM Local Caching</h2>
 
