@@ -16,7 +16,7 @@ This update is my favorite so far, since its really useful for music producing!<
 - Added Midi Analyzer: Yes! It scans your Midi and detects chords and scales and passes it to the LLM Midi Looper<br>
 - LLM Midi Looper: It creates Leads, Basslines, Pads, Arps, Chord Riffs...that fits to your chords :-) <br>
 
-Full Docu here: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/tree/main/Absynth-VST
+Full Docu here: https://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/tree/main/Absynth-VST <br>
 Watch the full video and subscribe to my YouTube Channel. Thx! https://www.youtube.com/watch?v=-4kXqLk-yMo
 
 ------------------------------------------------------------------------------
