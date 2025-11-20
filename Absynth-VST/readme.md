@@ -556,10 +556,10 @@ Yes! It really analyzs your Midi-files and detects the right chords and scales, 
 <h2>Absynth LLM Midi Loop Generator</h2>
   <img width="583" height="711" alt="image" src="https://github.com/user-attachments/assets/e79e9c5d-5f60-433b-87b3-47cc3299504d" /><br>
 Yes! it gets the analyzed Midi information from the analyzer and generates the right leads, bass, pads, arps and riffs to your chords and scale!
-
+<br>
 1. Pick LLM or Local, both work
 2. For LLM also set Temperature -> see included comfy workflow for documentation
-3. Set Note Density -> sets the amound of notes basicly
+3. Set Note Density -> sets the amount of notes basicly
 4. Prompt create a trance chord riff...(prompt examples see workflow)
 5. Yes! It generates Midi that really fits to your chords it has detected :-)
 
