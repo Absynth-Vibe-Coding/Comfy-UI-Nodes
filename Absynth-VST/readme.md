@@ -19,6 +19,8 @@
 - VST Editor <- now you can see and edit your VST Plugin in Comfy!
 - VST List <- it scans your VST3 Folder and gives you a dropdown with all your VST3 Plugins
 - ABSYNTH Preset Maker <- YES!! you read this right, the LLM can generate your Presets incl. Effects, currently only Serum 2 (more to come)
+- Added Midi Analyzer: Yes! It scans your Midi and detects chords and scales and passes it to the LLM Midi Looper
+- LLM Midi Looper: It creates Leads, Basslines, Pads, Arps, Chord Riffs...that fits to your chords :-)
 - LLM Cache <- Local Caching for your Prompts, tells the LLM what it did before and will always do different results
 - Absynth Audio Preview: Listen, Loop and Save Audio with nice Waveform
 - LLM Status Display: shows LLM Success or Fail
@@ -541,6 +543,23 @@ Right now you can Generate:<br>
 - Arpeggiator including 8th, 16th, chords, directions like up, down, convergence... <br>
 - Add effects like reverb, delay, compressor, chorus...to your Serum 2 Preset! <br>
 
+<h2>Absynth MIDI Analyzer</h2>
+<img width="567" height="423" alt="image" src="https://github.com/user-attachments/assets/4e44aa45-6b81-486d-ae31-44a0884cd609" />
+Yes! It really analyzs your Midi-files and detects the right chords and scales, also timing, bars, tempo<br>
+
+1. Click browse Midi File
+2. Select your Midi
+3. The node analyzes the File when you click Run
+
+<h2>Absynth LLM Midi Loop Generator</h2>
+  <img width="583" height="711" alt="image" src="https://github.com/user-attachments/assets/e79e9c5d-5f60-433b-87b3-47cc3299504d" />
+Yes! it gets the analyzed Midi information from the analyzer and generates the right leads, bass, pads, arps and riffs to your chords and scale!
+
+1. Pick LLM or Local, both work
+2. For LLM also set Temperature -> see included comfy workflow for documentation
+3. Set Note Density -> sets the amound of notes basicly
+4. Prompt create a trance chord riff...(prompt examples see workflow)
+5. Yes! It generates Midi that rally fits to your chords it has detected :-)
   
 <h2>LLM Local Caching</h2>
 
