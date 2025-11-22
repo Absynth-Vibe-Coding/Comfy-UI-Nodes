@@ -12,7 +12,7 @@ AI Vibed Coded Nodes for Comfy UI
 
 - Fixed note recognition in the analyzer, should now show the correct notes all the time hopefully (if not, it still does the right scale)<br>
 
-- Fixed Chord riffs! Does even more amazing chords riffs now which are perfectly quantized<br>
+- Fixed Chord riffs! Does even more amazing chord riffs now which are perfectly quantized<br>
 
 - Fixed Arpeggios! More harmonic Arpeggios perfectly quantized<br><br>
 
