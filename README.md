@@ -8,6 +8,10 @@ AI Vibed Coded Nodes for Comfy UI
 
 <img width="1280" height="720" alt="absynth-vst-1 3" src="https://github.com/user-attachments/assets/986273e8-a3cf-4d24-9be1-0718556a77a2" />
 
+<h2>ABSYNTH VST 1.3.4.1 is here!</h2>
+
+- Fixed ollama request on comfy startup: now your Comfy loads very fast again while using the Absynth VST Nodes!
+
 <h2>ABSYNTH VST 1.3.4 is here!</h2>
 
 - Fixed note recognition in the analyzer, should now show the correct notes all the time hopefully (if not, it still does the right scale)<br>
