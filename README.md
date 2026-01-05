@@ -2,6 +2,10 @@
 
 AI Vibed Coded Nodes for Comfy UI
 
+I finally have a Github Website :-) fully vibecoded of course: https://absynth-vibe-coding.github.io/
+Good stuff to come!
+
+-------------------------------------------------------------------------------
 
 <h1>🎹 VST Plugins in ComfyUI - Absynth VST released</h1>
 <strong>Turn your VST plugins into ComfyUI nodes and let AI write your bangers + PRESETS. Yes, really.</strong>
