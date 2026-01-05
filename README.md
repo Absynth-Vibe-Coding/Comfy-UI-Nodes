@@ -2,7 +2,7 @@
 
 AI Vibed Coded Nodes for Comfy UI
 
-I finally have a Github Website :-) fully vibecoded of course: https://absynth-vibe-coding.github.io/
+I finally have a Github Website :-) fully vibecoded of course: https://absynth-vibe-coding.github.io/ <br>
 Good stuff to come!
 
 -------------------------------------------------------------------------------
