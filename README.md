@@ -1,6 +1,13 @@
 # Comfy-UI-Nodes
 
-AI Vibed Coded Nodes for Comfy UI
+AI Vibe Coded Nodes for Comfy UI
+
+
+Made & Released the first ComFyUI HeartMula Music Generator node for ComfyUI :-)
+This node lets you generate full songs in Comfy with very good quality similar to what Suno 3.5 can do, so definetly a step up for the local AI music generation!
+Go here and try this node now: https://github.com/Absynth-Vibe-Coding/Heart-Mula-Comfy-UI
+
+-------------------------------------------------------------------------------
 
 I finally have a Github Website :-) fully vibecoded of course: https://absynth-vibe-coding.github.io/ <br>
 Good stuff to come!
