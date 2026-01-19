@@ -27,7 +27,7 @@ All of them are made with caffeine and a lot of hours spent.
 - Latest **ComfyUI**
 - Required custom nodes (check workflow load errors)
 - A GPU that doesn’t scream immediately (optional but recommended)
-- recommended: SageAttention 2.2 with Triton <- you dont know how to install it? Make a backup of your comfy first and then let it Claude Code do for you!
+- recommended: SageAttention 2.2 with Triton <- you dont know how to install it? Make a backup of your comfy first and then let Claude Code install it for you! (it works everytime)
   
 
 If ComfyUI complains:
