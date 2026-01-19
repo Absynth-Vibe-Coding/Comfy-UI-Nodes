@@ -12,10 +12,9 @@ If it renders, glitches, dances, or does something cool — it probably belongs 
 You’ll find workflows for things like:
 
 - 🎬 **Text-to-Video & Image-to-Video**
-- 🤖 **LLM / AI-assisted generation**
 - 🎶 **Music, rhythm & vibe-based experiments**
 - 🧪 **Experimental nodes, cursed ideas, and happy accidents**
-- 🛠️ **Optimized setups for real-world use**
+- 🛠️ **Optimized setups for real-world use with 16 gb vram ;-)
 
 Some workflows are **clean & production-ready**  
 Some are **“it works, don’t touch it”**  
