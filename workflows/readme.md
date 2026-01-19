@@ -18,7 +18,7 @@ You’ll find workflows for things like:
 
 Some workflows are **clean & production-ready**  
 Some are **“it works, don’t touch it”**  
-All of them are made with ❤️ and caffeine.
+All of them are made with caffeine and a lot of hours spent.
 
 ---
 
@@ -27,6 +27,8 @@ All of them are made with ❤️ and caffeine.
 - Latest **ComfyUI**
 - Required custom nodes (check workflow load errors)
 - A GPU that doesn’t scream immediately (optional but recommended)
+- recommended: SageAttention 2.2 with Triton <- you dont know how to install it? Make a backup of your comfy first and then let it Claude Code do for you!
+  
 
 If ComfyUI complains:
 > “Missing node XYZ”
@@ -72,7 +74,7 @@ Just don’t blame me if your render queue never ends.
 
 ---
 
-## 🖤 Credits
+## Credits
 
 Created by **Absynth – Vibe Coding**  
 Built with curiosity, experimentation, and a slightly unhealthy love for AI tools.
