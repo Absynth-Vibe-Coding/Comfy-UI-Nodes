@@ -7,7 +7,7 @@ If it renders, glitches, dances, or does something cool — it probably belongs 
 
 ---
 
-## 🚀 What’s Inside?
+## What’s Inside?
 
 You’ll find workflows for things like:
 
@@ -39,7 +39,7 @@ Repeat until happiness.
 
 ---
 
-## 📺 Important (Very Serious) Request
+## Important (Very Serious) Request
 
 If you enjoy these workflows, learn something new, or laugh at least once:
 
