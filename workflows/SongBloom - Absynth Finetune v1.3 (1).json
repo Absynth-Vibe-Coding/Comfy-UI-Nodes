@@ -1,0 +1,1028 @@
+{
+  "id": "9d490b9b-9109-44cb-8ed4-a725ad45bb8d",
+  "revision": 0,
+  "last_node_id": 189,
+  "last_link_id": 372,
+  "nodes": [
+    {
+      "id": 131,
+      "type": "VHS_LoadVideo",
+      "pos": [
+        -972.0599365234375,
+        -678.7808227539062
+      ],
+      "size": [
+        528.80224609375,
+        310
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "meta_batch",
+          "shape": 7,
+          "type": "VHS_BatchManager",
+          "link": null
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "frame_count",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            322
+          ]
+        },
+        {
+          "name": "video_info",
+          "type": "VHS_VIDEOINFO",
+          "links": null
+        }
+      ],
+      "title": "1. Load Music Video",
+      "properties": {
+        "cnr_id": "comfyui-videohelpersuite",
+        "ver": "1.7.5",
+        "Node name for S&R": "VHS_LoadVideo"
+      },
+      "widgets_values": {
+        "video": "Desktop 2025.09.19 - 20.38.54.07.mp4",
+        "force_rate": 0,
+        "custom_width": 0,
+        "custom_height": 0,
+        "frame_load_cap": 600,
+        "skip_first_frames": 0,
+        "select_every_nth": 1,
+        "format": "AnimateDiff",
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "Desktop 2025.09.19 - 20.38.54.07.mp4",
+            "type": "input",
+            "format": "video/mp4",
+            "force_rate": 0,
+            "custom_width": 0,
+            "custom_height": 0,
+            "frame_load_cap": 600,
+            "skip_first_frames": 0,
+            "select_every_nth": 1
+          }
+        }
+      },
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 160,
+      "type": "VHS_LoadAudioUpload",
+      "pos": [
+        -854.0885009765625,
+        30.63311195373535
+      ],
+      "size": [
+        291.01434326171875,
+        204
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            323
+          ]
+        },
+        {
+          "name": "duration",
+          "type": "FLOAT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-videohelpersuite",
+        "ver": "1.7.7",
+        "Node name for S&R": "VHS_LoadAudioUpload"
+      },
+      "widgets_values": {
+        "audio": "uplifting.mp3",
+        "start_time": 0,
+        "duration": 0,
+        "audiopreview": {
+          "params": {
+            "start_time": 0,
+            "duration": 0,
+            "filename": "uplifting.mp3",
+            "type": "input"
+          }
+        }
+      },
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 180,
+      "type": "MelBandRoFormerModelLoader",
+      "pos": [
+        1048.999755859375,
+        77.20182800292969
+      ],
+      "size": [
+        317.2749938964844,
+        58
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MELROFORMERMODEL",
+          "links": [
+            354
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-melbandroformer",
+        "ver": "1.0.1",
+        "Node name for S&R": "MelBandRoFormerModelLoader"
+      },
+      "widgets_values": [
+        "MelBandRoformer_fp16.safetensors"
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 183,
+      "type": "MelBandRoFormerModelLoader",
+      "pos": [
+        1528.145263671875,
+        71.96919250488281
+      ],
+      "size": [
+        317.2749938964844,
+        58
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MELROFORMERMODEL",
+          "links": [
+            360
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-melbandroformer",
+        "ver": "1.0.1",
+        "Node name for S&R": "MelBandRoFormerModelLoader"
+      },
+      "widgets_values": [
+        "MelBandRoformer_fp16.safetensors"
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 46,
+      "type": "SoundFlow_Fade",
+      "pos": [
+        527.9218139648438,
+        -599.9843139648438
+      ],
+      "size": [
+        210,
+        82
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 370
+        }
+      ],
+      "outputs": [
+        {
+          "name": "faded_audio",
+          "type": "AUDIO",
+          "links": [
+            91,
+            261,
+            326
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "soundflow",
+        "ver": "9cb3775172417ce328b88036178dc2fc8a07dbb4",
+        "Node name for S&R": "SoundFlow_Fade"
+      },
+      "widgets_values": [
+        0,
+        3
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 189,
+      "type": "SongBloomGenerate",
+      "pos": [
+        52.916648864746094,
+        -737.4755859375
+      ],
+      "size": [
+        335.3667297363281,
+        902.4234008789062
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "SONGBLOOM_MODEL",
+          "link": 368
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 369
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            370,
+            371,
+            372
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "SongBloom",
+        "ver": "0e3fae3fea75aec14699db3002ce352eb8c3a9c6",
+        "Node name for S&R": "SongBloomGenerate"
+      },
+      "widgets_values": [
+        "[intro][intro][intro][intro][intro][intro][intro][intro][intro][intro][intro][intro][intro][intro][intro][intro]\n\n[verse]\nCity lights blur — I can’t slow down,\nHeartbeat racing — echoes in the sound.\nChasing shadows — through the neon rain,\nEvery moment — calling out your name.\n\n[chorus]\nFalling, falling —\nTake me higher, don’t let go of the flame.\nFalling, falling, falling — through the night we remain.\nWe rise together — and burn away the pain.\n\n\n[verse]\nDreams collide here — nothing feels the same,\nLost forever — in this endless game.\nVoices whisper — pulling me inside,\nThrough the silence — there’s no place to hide.\n\n\n[chorus]\nFalling, falling —\nTake me higher, don’t let go of the flame.\nFalling, falling, falling — through the night we remain.\nWe rise together — and burn away the pain.\n\n\n[bridge]\nThrough the night — we remain.\nNo tomorrow, no yesterday —\nOnly fire lighting up the way.\n\n\n[chorus]\nFalling, falling —\nTake me higher, don’t let go of the flame.\nFalling, falling, falling — through the night we remain.\nWe rise together — and burn away the pain.\n\n\n[outro][outro][outro][outro][outro][outro][outro][outro]\n[outro][outro][outro][outro][outro][outro][outro][outro]",
+        1.5,
+        0.95,
+        0.95,
+        40,
+        true,
+        "spiral",
+        "global",
+        200,
+        255,
+        270216414,
+        "randomize",
+        true
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 184,
+      "type": "MelBandRoFormerSampler",
+      "pos": [
+        1567.908447265625,
+        -38.61554718017578
+      ],
+      "size": [
+        231.2720703125,
+        46
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MELROFORMERMODEL",
+          "link": 360
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 372
+        }
+      ],
+      "outputs": [
+        {
+          "name": "vocals",
+          "type": "AUDIO",
+          "links": []
+        },
+        {
+          "name": "instruments",
+          "type": "AUDIO",
+          "links": [
+            359
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-melbandroformer",
+        "ver": "1.0.1",
+        "Node name for S&R": "MelBandRoFormerSampler"
+      },
+      "widgets_values": [],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 182,
+      "type": "MelBandRoFormerSampler",
+      "pos": [
+        1086.356689453125,
+        -38.637855529785156
+      ],
+      "size": [
+        231.2720703125,
+        46
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MELROFORMERMODEL",
+          "link": 354
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 371
+        }
+      ],
+      "outputs": [
+        {
+          "name": "vocals",
+          "type": "AUDIO",
+          "links": [
+            355
+          ]
+        },
+        {
+          "name": "instruments",
+          "type": "AUDIO",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-melbandroformer",
+        "ver": "1.0.1",
+        "Node name for S&R": "MelBandRoFormerSampler"
+      },
+      "widgets_values": [],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 186,
+      "type": "Note",
+      "pos": [
+        2081.70751953125,
+        -488.51177978515625
+      ],
+      "size": [
+        326.6446838378906,
+        160.3151092529297
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "\n           (       )    )           )   \n     (      (  )\\ ) ( /( ( /(  * ) ( /(   \n     )\\   ( )\\(()/( )\\()))\\()` )  /( )\\())  \n  ((((_)( )((_)/(_)((_)\\((_)\\ ( )(_)((_)\\   \n   )\\ _ )((_)_(_)) ___ ((_)_((_(_(_()) _((_)  \n   (_)_\\(_ | _ \\  /    \\ \\ / / | \\| | |_   _| | || |  \n    / _ \\  | _ |  \\__   \\ V /  | .` |   | |   | __ |  \n   /_/ \\_\\ |___/  ___/   |_|   |_|\\_|   |_|   |_||_| \n\n      "
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 168,
+      "type": "Audio Stack (mtb)",
+      "pos": [
+        -273.1064758300781,
+        -250.62535095214844
+      ],
+      "size": [
+        165.099609375,
+        66
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "audio_1",
+          "name": "audio_1",
+          "type": "AUDIO",
+          "link": 322
+        },
+        {
+          "label": "audio_2",
+          "name": "audio_2",
+          "type": "AUDIO",
+          "link": 323
+        },
+        {
+          "name": "audio_3",
+          "type": "AUDIO",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "stacked_audio",
+          "type": "AUDIO",
+          "links": [
+            369
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-mtb",
+        "ver": "0.5.4",
+        "Node name for S&R": "Audio Stack (mtb)"
+      },
+      "widgets_values": [],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 124,
+      "type": "SongBloomModelLoader",
+      "pos": [
+        -320.97052001953125,
+        -463.44378662109375
+      ],
+      "size": [
+        270,
+        130
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "SONGBLOOM_MODEL",
+          "links": [
+            368
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "SongBloom",
+        "ver": "2533d5497f7b73ccae7c3012dcb405f231786a6e",
+        "Node name for S&R": "SongBloomModelLoader",
+        "aux_id": "fredconex/ComfyUI-SongBloom"
+      },
+      "widgets_values": [
+        "songbloom_full_150s_dpo.safetensors",
+        "bfloat16",
+        45,
+        true
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 37,
+      "type": "SoundFlow_PreviewAudio",
+      "pos": [
+        941.1126098632812,
+        -662.8648071289062
+      ],
+      "size": [
+        509.8288879394531,
+        240.7534637451172
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 91
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "autoSeek": false,
+        "duration": 152.96,
+        "audioUrl": "/api/view?filename=soundflow_preview_audio_cd2f00fe-6e7f-4417-917f-196189881052_00020_.flac&type=temp&subfolder=&rand=0.046375227301543864",
+        "isPlaying": false,
+        "currentTime": 0,
+        "volume": 1,
+        "node_id": "cd2f00fe-6e7f-4417-917f-196189881052"
+      },
+      "widgets_values": [],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 169,
+      "type": "AudioGetTempo",
+      "pos": [
+        1497.6236572265625,
+        -656.455810546875
+      ],
+      "size": [
+        193.33348083496094,
+        83.33553314208984
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 326
+        }
+      ],
+      "outputs": [
+        {
+          "name": "tempo_string",
+          "type": "STRING",
+          "links": [
+            327
+          ]
+        },
+        {
+          "name": "tempo_float",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "name": "tempo_integer",
+          "type": "INTEGER",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "audio-separation-nodes-comfyui",
+        "ver": "1.4.0",
+        "Node name for S&R": "AudioGetTempo"
+      },
+      "widgets_values": [],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 170,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1730.2666015625,
+        -659.1856689453125
+      ],
+      "size": [
+        210,
+        88
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 327
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Song BPM",
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "125"
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 178,
+      "type": "PreviewAudio",
+      "pos": [
+        1539.8988037109375,
+        -194.19126892089844
+      ],
+      "size": [
+        277.1888732910156,
+        88
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 359
+        }
+      ],
+      "outputs": [],
+      "title": "Instrumental",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.59",
+        "Node name for S&R": "PreviewAudio"
+      },
+      "widgets_values": [],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 177,
+      "type": "PreviewAudio",
+      "pos": [
+        1058.2406005859375,
+        -194.07472229003906
+      ],
+      "size": [
+        268.4279479980469,
+        88
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 355
+        }
+      ],
+      "outputs": [],
+      "title": "Vocals",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.59",
+        "Node name for S&R": "PreviewAudio"
+      },
+      "widgets_values": [],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 159,
+      "type": "Fast Groups Bypasser (rgthree)",
+      "pos": [
+        -358.6943664550781,
+        -739.70703125
+      ],
+      "size": [
+        354.73760986328125,
+        202
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "matchColors": "",
+        "matchTitle": "",
+        "showNav": true,
+        "showAllGraphs": true,
+        "sort": "position",
+        "customSortAlphabet": "",
+        "toggleRestriction": "default"
+      },
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 125,
+      "type": "MarkdownNote",
+      "pos": [
+        2080.34521484375,
+        -749.9299926757812
+      ],
+      "size": [
+        317.14117431640625,
+        198.13987731933594
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "ABYNTH Finetune with Extension Node",
+      "properties": {},
+      "widgets_values": [
+        "use these for better song structure:\n1 [intro] = 1 sec\n\n[intro] [intro] [intro] [intro] [intro] [intro][intro] [intro][intro] [intro]\n\n[inst] [inst] [inst] [inst] [inst][inst] [inst] [inst] [inst]\n\n[Outro] [Outro] [Outro] [Outro] [Outro][Outro] [Outro] [Outro] \n\n\n------------------------------------\n\n\n\nhttps://www.youtube.com/@Electric-Dreamz\n\nhttps://github.com/Absynth-Vibe-Coding/Comfy-UI-Nodes/\n\nhttps://\nhuggingface.co/ABSYNTH-VibeCoding "
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 128,
+      "type": "PreviewAudio",
+      "pos": [
+        1585.8037109375,
+        -510.8798522949219
+      ],
+      "size": [
+        278.91815185546875,
+        88
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 261
+        }
+      ],
+      "outputs": [],
+      "title": "Music + Vocals",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.59",
+        "Node name for S&R": "PreviewAudio"
+      },
+      "widgets_values": [],
+      "color": "#233",
+      "bgcolor": "#355"
+    }
+  ],
+  "links": [
+    [
+      91,
+      46,
+      0,
+      37,
+      0,
+      "AUDIO"
+    ],
+    [
+      261,
+      46,
+      0,
+      128,
+      0,
+      "AUDIO"
+    ],
+    [
+      322,
+      131,
+      2,
+      168,
+      0,
+      "AUDIO"
+    ],
+    [
+      323,
+      160,
+      0,
+      168,
+      1,
+      "AUDIO"
+    ],
+    [
+      326,
+      46,
+      0,
+      169,
+      0,
+      "AUDIO"
+    ],
+    [
+      327,
+      169,
+      0,
+      170,
+      0,
+      "STRING"
+    ],
+    [
+      354,
+      180,
+      0,
+      182,
+      0,
+      "MELROFORMERMODEL"
+    ],
+    [
+      355,
+      182,
+      0,
+      177,
+      0,
+      "AUDIO"
+    ],
+    [
+      359,
+      184,
+      1,
+      178,
+      0,
+      "AUDIO"
+    ],
+    [
+      360,
+      183,
+      0,
+      184,
+      0,
+      "MELROFORMERMODEL"
+    ],
+    [
+      368,
+      124,
+      0,
+      189,
+      0,
+      "SONGBLOOM_MODEL"
+    ],
+    [
+      369,
+      168,
+      0,
+      189,
+      1,
+      "AUDIO"
+    ],
+    [
+      370,
+      189,
+      0,
+      46,
+      0,
+      "AUDIO"
+    ],
+    [
+      371,
+      189,
+      0,
+      182,
+      1,
+      "AUDIO"
+    ],
+    [
+      372,
+      189,
+      0,
+      184,
+      1,
+      "AUDIO"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "Full Mix",
+      "bounding": [
+        883.7203979492188,
+        -760.30419921875,
+        1118.8609619140625,
+        375.78717041015625
+      ],
+      "color": "#8AA",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "Vocals",
+      "bounding": [
+        985.503662109375,
+        -326.78582763671875,
+        432.2702331542969,
+        500.9284362792969
+      ],
+      "color": "#8AA",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "Load Audio from Video",
+      "bounding": [
+        -995.6644897460938,
+        -774.86474609375,
+        579.184814453125,
+        662.083740234375
+      ],
+      "color": "#8AA",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "Load Audio from Audio",
+      "bounding": [
+        -998.2988891601562,
+        -62.44781494140625,
+        575.7761840820312,
+        316.2420959472656
+      ],
+      "color": "#8AA",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 5,
+      "title": "Instrumental",
+      "bounding": [
+        1475.3740234375,
+        -321.8511657714844,
+        422.1673889160156,
+        498.5303955078125
+      ],
+      "color": "#8AA",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 6,
+      "title": "Fade In / Fade  Out",
+      "bounding": [
+        452.492919921875,
+        -763.3705444335938,
+        364.2784118652344,
+        382.2882995605469
+      ],
+      "color": "#8AA",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.6934334949441519,
+      "offset": [
+        1420.0741041357705,
+        666.5162107255358
+      ]
+    },
+    "frontendVersion": "1.36.14",
+    "ue_links": [],
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true,
+    "workflowRendererVersion": "LG"
+  },
+  "version": 0.4
+}
