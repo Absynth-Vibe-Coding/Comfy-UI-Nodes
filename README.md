@@ -2,6 +2,15 @@
 
 AI Vibe Coded Nodes for Comfy UI
 
+Your LLM can now play Tetris! I mean like really, your local LLM plays the Absynth 3d-Tetris now if you want and probably better than you :-)
+But of course you can also play the nice 3d tetris variant if you want online and with full X-Box controller support incl. Highscore list! 
+
+<img src="https://raw.githubusercontent.com/Absynth-Vibe-Coding/absynth-3d-tetris/refs/heads/main/absynth-3d-tetris-llm-menu.png"></img>
+
+https://absynth-vibe-coding.github.io/absynth-3d-tetris/
+
+
+-------------------------------------------------------------------------------
 
 Made & Released the first ComfyUI <strong>HeartMula Absynth Music Generator </strong> node :-)
 This node lets you generate full songs in Comfy with very good quality similar to what Suno 3.5 can do, so definetly a step up for the local AI music generation!
