@@ -1,7 +1,7 @@
 
 <h1>NEWS</h1>
 Your LLM can now play Tetris! I mean like really, your local LLM plays the Absynth 3d-Tetris now if you want and probably better than you :-)
-But of course you can also play the nice 3d tetris variant if you want online and with full X-Box controller support incl. Highscore list! 
+But of course you can also play the nice 3d tetris variant if you want online and with full X-Box controller support incl. Highscore list! (currently only desktop)
 
 <img src="https://raw.githubusercontent.com/Absynth-Vibe-Coding/absynth-3d-tetris/refs/heads/main/absynth-3d-tetris-llm-menu.png"></img>
 
