@@ -5,7 +5,7 @@ But of course you can also play the nice 3d tetris variant if you want online an
 
 <img src="https://raw.githubusercontent.com/Absynth-Vibe-Coding/absynth-3d-tetris/refs/heads/main/absynth-3d-tetris-llm-menu.png"></img>
 
-https://absynth-vibe-coding.github.io/absynth-3d-tetris/
+https://absynth-vibe-coding.github.io/absynth-3d-tetris/ <br>
 https://github.com/Absynth-Vibe-Coding/absynth-3d-tetris/blob/main/README.md
 
 # Comfy-UI-Nodes
